@@ -1,4 +1,12 @@
-import React, { useContext, useEffect, useRef, useState } from 'react'
+import React, {
+  forwardRef,
+  useImperativeHandle,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from 'react'
+import { useVirtualizer } from '@tanstack/react-virtual'
 
 import { TableRow } from '../TableRow'
 import ManagerContext from '../context'
@@ -43,54 +51,87 @@ const Loading = () => {
   )
 }
 
-export const TableBody = () => {
-  const [lastPagination, setLastPagination] = useState<Date>(new Date())
+export const TableBody = forwardRef<HTMLTableSectionElement, Record<string, never>>(
+  function TableBody(_props, ref) {
+    const context = useContext(ManagerContext)
+    const { rows, hasFilters, messages, loading, paginator } = {
+      ...context,
+    }
+    const tbodyRef = useRef<HTMLTableSectionElement | null>(null)
+    const lastPaginatorLengthRef = useRef<number | null>(null)
 
-  const context = useContext(ManagerContext)
-  const { rows, hasFilters, messages, loading, paginator } = {
-    ...context,
-  }
+    useImperativeHandle(ref, () => tbodyRef.current as HTMLTableSectionElement)
 
-  const getContent = () => {
-    // se tem dados mostra os dados
-    if (rows.length > 0) {
-      return rows.map((row, index: number) => (
-        <TableRow key={index} row={row} index={index} />
-      ))
+    const virtualizer = useVirtualizer({
+      count: rows.length,
+      getScrollElement: () => tbodyRef.current,
+      estimateSize: () => 45,
+      overscan: 5,
+    })
+
+    const virtualItems = virtualizer.getVirtualItems()
+    const totalSize = virtualizer.getTotalSize()
+
+    const getContent = () => {
+      // se tem dados mostra os dados
+      if (rows.length > 0) {
+        return (
+          <>
+            <S.SpacerRow aria-hidden='true'>
+              <S.SpacerCell style={{ height: `${totalSize}px` }} />
+            </S.SpacerRow>
+
+            {virtualItems.map((virtualRow) => {
+              const row = rows[virtualRow.index]
+              if (!row) return null
+
+              return (
+                <TableRow
+                  key={virtualRow.key}
+                  row={row}
+                  index={virtualRow.index}
+                  last={virtualRow.index === rows.length - 1}
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    transform: `translateY(${virtualRow.start}px)`,
+                  }}
+                />
+              )
+            })}
+          </>
+        )
+      }
+
+      // definindo a mensagem que deve ser mostrada
+      const message = messages[hasFilters ? 'emptyWithFilters' : 'empty']
+
+      // retornando o html da mensagem
+      return <FullContainer>{message}</FullContainer>
     }
 
-    // definindo a mensagem que deve ser mostrada
-    const message = messages[hasFilters ? 'emptyWithFilters' : 'empty']
+    useEffect(() => {
+      if (!paginator || rows.length === 0) return
+      if (virtualItems.length === 0) return
 
-    // retornando o html da mensagem
-    return <FullContainer>{message}</FullContainer>
-  }
+      const lastVisibleIndex = virtualItems[virtualItems.length - 1].index
+      const shouldLoadMore = lastVisibleIndex >= rows.length - 5
+      const hasAlreadyRequestedThisLength =
+        lastPaginatorLengthRef.current === rows.length
 
-  const onScroll: React.UIEventHandler<HTMLTableSectionElement> = (event) => {
-    // preventing event bubbling, can be removed if react is grather than 17
-    if (event.target !== event.currentTarget) return
+      if (shouldLoadMore && !hasAlreadyRequestedThisLength) {
+        lastPaginatorLengthRef.current = rows.length
+        paginator()
+      }
+    }, [paginator, rows.length, virtualItems])
 
-    const target = event.nativeEvent.target as HTMLElement
-    const scrollTopMax =
-      target.scrollHeight - target.getBoundingClientRect().height - 10 // -10 is a workaround to work with Chrome zoom
-    const scrollTop = target.scrollTop
-
-    if (scrollTopMax > 0 && scrollTop >= scrollTopMax) {
-      const now = new Date()
-
-      const diff = Math.abs((now.getTime() - lastPagination.getTime()) / 1000)
-
-      if (diff < 0.5) return
-
-      setLastPagination(new Date())
-      paginator()
-    }
-  }
-
-  return (
-    <S.TableBody onScroll={onScroll}>
-      {getContent()}
-      {loading && <Loading />}
-    </S.TableBody>
-  )
-}
+    return (
+      <S.TableBody ref={tbodyRef}>
+        {getContent()}
+        {loading && <Loading />}
+      </S.TableBody>
+    )
+  },
+)

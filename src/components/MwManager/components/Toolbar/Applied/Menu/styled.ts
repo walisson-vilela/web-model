@@ -59,10 +59,7 @@ export const FlexContainer = styled.div`
   color: rgba(38, 48, 70, 0.5);
 
   > h4 {
-    ${({ theme }) =>
-      theme.useTypography('h4', {
-        fontWeight: 'bold',
-      })}
+    ${({ theme }) => theme.useTypography('h4')}
     margin: 0;
     color: #263046;
   }
@@ -125,10 +122,7 @@ export const EmptyMessage = styled.div`
 `
 
 export const Title = styled.h4`
-  ${({ theme }) =>
-    theme.useTypography('h4', {
-      fontWeight: 'bold',
-    })}
+  ${({ theme }) => theme.useTypography('h4')}
 
   margin: 0;
   color: #263046;

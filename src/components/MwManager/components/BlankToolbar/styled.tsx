@@ -12,13 +12,13 @@ export const Cell = styled.div`
   line-height: 17px;
 `
 
-export const Container = styled.div`
+export const Container = styled.div<{ $borderless?: boolean }>`
   width: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   background-color: #fff !important;
-  border-width: 1px 1px 0 1px;
+  border-width: ${({ $borderless: borderless }) => (borderless ? '0' : '0 0 1px 0')};
   border-style: solid;
   border-color: #e2e2e3;
   color: #999999;

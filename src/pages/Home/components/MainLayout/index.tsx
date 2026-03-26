@@ -1,13 +1,19 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 
-import { Tabs } from '../../../../components'
+import { MwButton, MwManager, MwTabs } from '../../../../components'
 import type { TabProps, TabShellProps } from '../../../../components/Tabs/interfaces'
+import type { ColumnInterface, Row } from '../../../../components/MwManager'
+import Toolbar from '../../../../components/Toolbar'
+import type {
+  AppliedFilter,
+  Filter,
+} from '../../../../components/MwManager/components/Toolbar/interfaces'
 import { PATHS } from '../../../../routes/paths'
 import {
   HOME_SCREEN_DEFAULT_PATH,
   findHomeScreenNodeByPath,
-} from '../../../../pages/Home/screens'
+} from '../../screens'
 import Header from './components/Header'
 import Menu from './components/Menu'
 
@@ -21,6 +27,28 @@ type HomeTabData = {
   description: string
 }
 
+const homeManagerColumns: ColumnInterface[] = [
+  { content: 'Campo', key: 'field', width: 6 },
+  { content: 'Valor', key: 'value', width: 10 },
+]
+
+const buildHomeManagerRows = (data: HomeTabData): Row[] => [
+  { field: 'Título', value: data.title },
+  { field: 'Descrição', value: data.description },
+  { field: 'Rota', value: data.path },
+]
+
+const homeToolbarFilters: Filter[] = [
+  {
+    label: 'Status',
+    name: 'status',
+    options: [
+      { label: 'Ativo', value: 'ativo' },
+      { label: 'Inativo', value: 'inativo' },
+    ],
+  },
+]
+
 const homeScreenHeader = ({ data }: TabShellProps<HomeTabData>) => {
   return (
     <div className={styles.screenHeader}>
@@ -30,11 +58,53 @@ const homeScreenHeader = ({ data }: TabShellProps<HomeTabData>) => {
   )
 }
 
-const homeScreenTab = Tabs.buildComponent(() => {
-  return <div className={styles.screenBody} />
+const homeScreenTab = MwTabs.buildComponent(({ data }) => {
+  const [search, setSearch] = useState('')
+  const [appliedFilters, setAppliedFilters] = useState<AppliedFilter[]>([])
+
+  const handleSearchSubmit = async (value: string) => {
+    setSearch(value)
+    // TODO: buscar os dados no backend usando o valor enviado.
+  }
+
+  return (
+    <div className={styles.screenBody}>
+      <div className={styles.managerFrame}>
+        <Toolbar
+          filters={{
+            filters: homeToolbarFilters,
+            appliedFilters,
+            setAppliedFilters,
+          }}
+          search={{
+            search,
+            setSearch,
+            onSubmit: handleSearchSubmit,
+          }}
+          reloader={() => undefined}
+          loading={false}
+          except={{
+            paginator: true,
+            calendar: true,
+            calendarInterval: true,
+          }}
+          borderless
+          children={<MwButton content='Novo' size='small' />}
+        />
+        <MwManager
+          columns={homeManagerColumns}
+          rows={buildHomeManagerRows(data)}
+          hasFilters={false}
+          loading={false}
+          paginator={() => undefined}
+          borderless
+        />
+      </div>
+    </div>
+  )
 })
 
-const homeTabComponents = Tabs.mapComponents<HomeTabComponentKey, HomeTabData>({
+const homeTabComponents = MwTabs.mapComponents<HomeTabComponentKey, HomeTabData>({
   HomeScreenTab: homeScreenTab,
 })
 
@@ -133,7 +203,7 @@ const MainLayout = () => {
 
         <main className={styles.content}>
           <section className={styles.workspace}>
-            <Tabs
+            <MwTabs
               active={[activeIndex, handleSetActive]}
               options={[tabs, setTabs]}
               components={homeTabComponents}

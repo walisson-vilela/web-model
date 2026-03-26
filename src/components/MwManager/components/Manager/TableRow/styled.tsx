@@ -62,14 +62,39 @@ export const DropdownContainer = styled.div`
 
 interface TableRowProps {
   $stripped?: boolean
+  $last?: boolean
 }
 
 export const TableRow = styled.tr<TableRowProps>`
-  border-top: 1px solid #e2e2e3;
   display: flex;
   align-items: stretch;
   width: 100%;
   box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+
+  ${({ $last: last }) => {
+    if (last) {
+      return css`
+        &::after {
+          content: none;
+        }
+      `
+    }
+
+    return css`
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        background: #e2e2e3;
+        pointer-events: none;
+      }
+    `
+  }}
 
   ${({ $stripped: stripped }) => {
     if (!stripped) return

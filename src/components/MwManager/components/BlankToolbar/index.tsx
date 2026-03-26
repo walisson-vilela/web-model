@@ -9,10 +9,12 @@ interface BlankToolbarProps {
   left?: React.ReactElement | React.ReactElement[]
   /** conteudo diverso que sera exibido na parte esquerda da barra de ferramentas */
   right?: React.ReactElement | React.ReactElement[]
+  /** remove as bordas externas do toolbar */
+  borderless?: boolean
 }
 
 const BlankToolbar = (props: BlankToolbarProps) => {
-  const { left, right } = props
+  const { left, right, borderless } = props
 
   const getContent = (
     elements: React.ReactElement | React.ReactElement[],
@@ -30,7 +32,7 @@ const BlankToolbar = (props: BlankToolbarProps) => {
 
   return (
     <GlobalStyles.ThemeContainer>
-      <S.Container>
+      <S.Container $borderless={borderless}>
         <S.FirstContainer>{left && getContent(left)}</S.FirstContainer>
         <S.SecondContainer>{right && getContent(right)}</S.SecondContainer>
       </S.Container>

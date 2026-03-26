@@ -23,7 +23,7 @@ Regras:
 - A página deve ser responsável por compor estado, navegar e orquestrar a UI.
 - Se a página precisar conversar com estado compartilhado, use `Context` em vez de Redux.
 - Lógica de autenticação, persistência ou preparo de dados deve ficar em `services.ts` ou no `Context` apropriado.
-- Nomes técnicos de componentes, pastas e arquivos devem seguir `camelCase` e inglês.
+- Por padrão, novos componentes deverão ser criados em `CamelCase` e em inglês.
 - Textos de interface, labels e mensagens podem continuar no idioma do produto.
 
 As telas já padronizadas neste workspace são:
@@ -50,8 +50,8 @@ src/pages/Home/
 
 - `HomeLayout` concentra o shell da aplicação: header, menu lateral e área de conteúdo.
 - `screens/index.tsx` é a fonte de verdade das telas internas da Home.
-- `HomeLayout` usa o `Tabs` compartilhado para exibir as screens abertas.
-- O `Tabs` da Home recebe um header separado para título, subtítulo e ações da screen ativa.
+- `HomeLayout` usa o `MwTabs` compartilhado para exibir as screens abertas.
+- O `MwTabs` da Home recebe um header separado para título, subtítulo e ações da screen ativa.
 - O menu lateral também consome o catálogo de `screens`, então rotas e navegação compartilham a mesma estrutura.
 - `Painel de Controle` é a label da tab inicial da screen `home`.
 - `Dashboard` é o nome técnico em inglês da screen inicial da Home.
@@ -87,7 +87,7 @@ src/pages/Home/
 - `screens/index.tsx` é o catálogo central com labels, paths, ícones, descrições e rotas filhas.
 - `Dashboard` é a primeira screen real da Home.
 - `ScreenPlaceholder` é a base para novas screens antes da implementação final.
-- Os ícones exibidos pelas screens devem vir de `src/assets/icons/feather` via `Icon`.
+- Os ícones exibidos pelas screens devem vir de `src/assets/icons/feather` via `MwIcon`.
 
 ## Fluxo de criação de screen
 
@@ -95,7 +95,7 @@ src/pages/Home/
 2. Registre a screen em `src/pages/Home/screens/index.tsx`.
 3. O menu lateral passa a exibir a entrada a partir do catálogo.
 4. O router já resolve a rota via `flattenHomeScreenRoutes`.
-5. O `Tabs` abre a screen e renderiza o header + conteúdo da tab.
+5. O `MwTabs` abre a screen e renderiza o header + conteúdo da tab.
 
 ## Exemplo prático
 

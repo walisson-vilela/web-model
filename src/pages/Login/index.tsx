@@ -2,7 +2,7 @@ import type { FormEventHandler } from 'react'
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-import { Modal } from '../../components'
+import { MwModal } from '../../components'
 import { useAuth } from '../../contexts'
 import { PATHS } from '../../routes/paths'
 import styles from './styles.module.css'
@@ -54,7 +54,7 @@ const LoginPage = () => {
     <main className={styles.page}>
       <Login />
 
-      <Modal
+      <MwModal
         title='Erro 597'
         children={
           <div>

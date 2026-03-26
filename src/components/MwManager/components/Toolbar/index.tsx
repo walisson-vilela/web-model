@@ -48,6 +48,8 @@ interface ToolbarProps {
     search?: string
     /** funcao que altera o valor do estado da string de busca */
     setSearch: React.Dispatch<React.SetStateAction<string>>
+    /** callback executada quando a busca for enviada, pronta para requisicao no backend */
+    onSubmit?: (value: string) => void | Promise<void>
   }
   /** funcao que sera chamada ao clicar no botao refresh */
   reloader?: () => void
@@ -86,6 +88,8 @@ interface ToolbarProps {
   after?: JSX.Element | JSX.Element[]
   /** os componentes especificados nesse objeto nao serao renderizados */
   except?: Except
+  /** remove as bordas externas do toolbar */
+  borderless?: boolean
 }
 
 const Toolbar = (props: ToolbarProps) => {
@@ -100,6 +104,7 @@ const Toolbar = (props: ToolbarProps) => {
     children,
     before,
     after,
+    borderless,
   } = props
 
   const except: Except = props.except || {
@@ -134,7 +139,7 @@ const Toolbar = (props: ToolbarProps) => {
   }
 
   if (search && !except.search) {
-    const { setSearch, search: _search } = search
+    const { setSearch, search: _search, onSubmit } = search
 
     const _setSearch = (newState: string) => {
       setSearch(newState)
@@ -145,6 +150,7 @@ const Toolbar = (props: ToolbarProps) => {
       <Search
         search={_search}
         setSearch={_setSearch}
+        onSubmit={onSubmit}
         disabled={loading}
         icon='feather'
         width='250px'
@@ -224,7 +230,7 @@ const Toolbar = (props: ToolbarProps) => {
 
   if (after) elements = elements.concat(after)
 
-  return <BlankToolbar left={children} right={elements} />
+  return <BlankToolbar left={children} right={elements} borderless={borderless} />
 }
 
 Toolbar.useDefaultDateIntervalState = Input.useDefaultDateIntervalState

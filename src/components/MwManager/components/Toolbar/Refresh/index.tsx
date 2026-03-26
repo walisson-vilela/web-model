@@ -2,7 +2,7 @@ import * as GlobalStyles from '../../../styled'
 import Tooltip from '../../Tooltip'
 import * as S from '../styled'
 
-import RefreshIcon from './Refresh'
+import RefreshIcon from '../../../../../assets/icons/feather/RotateCw'
 
 interface RefreshProps {
   /** callback que ira ser chamada quando o botao for clicado */

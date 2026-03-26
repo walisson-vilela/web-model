@@ -42,9 +42,12 @@ export const ContentContainer = styled.div`
 
 export const Tabs = styled.div<TabsContainerProps>`
   position: relative;
+  z-index: 1;
+  background-color: ${({ theme }) => theme.colors.white};
   overflow: hidden;
 
   display: flex;
+  flex: 0 0 auto;
   width: 100%;
   white-space: nowrap;
 

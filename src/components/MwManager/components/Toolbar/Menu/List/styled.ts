@@ -132,7 +132,7 @@ export const EmptyMessage = styled.div`
 `
 
 export const OptionsTitle = styled.span`
-  ${({ theme }) => theme.useTypography('p', { fontWeight: 'bold' })}
+  ${({ theme }) => theme.useTypography('p')}
 
   color: #263046;
   opacity: 0.5;

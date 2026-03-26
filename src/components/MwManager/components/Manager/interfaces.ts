@@ -74,6 +74,15 @@ export interface SortInterface {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type Row = any
 
+export interface SelectionInterface {
+  /** regra opcional para definir se uma linha pode ser selecionada */
+  isRowSelectable?: (
+    row: Row,
+    rowIndex: number,
+    manager: ContextInterface,
+  ) => boolean
+}
+
 interface Common {
   /** lista de configuracao das colunas */
   columns: ColumnInterface[]
@@ -97,6 +106,8 @@ interface Common {
     /** se o checkbox deve ter aparencia de radio */
     asRadio?: boolean
   }
+  /** configuracoes da selecao de linhas */
+  selection?: SelectionInterface
   /** funcao que retorna o conteudo do menu que sera exibido quando clicar no menu de cada linha,
    * caso nao seja enviado, o botao nao sera exibido */
   getItemMenu?: (item: Row) => false | string | JSX.Element | DropdownItem[]
@@ -117,6 +128,8 @@ interface Common {
   list?: boolean
   /** indicador se a tabela deve borda */
   borderless?: boolean
+  /** quantidade padrao de linhas visiveis antes de ativar o scroll */
+  maxVisibleRows?: number
   /** callback que ira executar ao clicar em alguma coluna */
   onClickColumn?: (
     row: [Row, number],
@@ -141,7 +154,7 @@ export interface ContextInterface extends Common {
   getRowDisabled: (row: Row) => boolean
 }
 
-export interface ManagerProps extends Common {
+export interface MwManagerProps extends Common {
   /** lista de mensagens, caso nao queira usar as mensagens padrao */
   messages?: {
     /** mensagem exibida quando nao encontra nenhum resultado */

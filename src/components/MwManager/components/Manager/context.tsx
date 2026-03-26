@@ -10,6 +10,7 @@ const ManagerContext = createContext<ContextInterface>({
     empty: '',
     emptyWithFilters: '',
   },
+  selection: undefined,
   sort: {
     sort: null,
     setSort: () => {},

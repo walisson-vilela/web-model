@@ -1,10 +1,11 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 
 import type { SortState } from './Sort/interfaces'
 import { TableBody } from './TableBody'
 import { TableHeader } from './TableHeader/'
 import ManagerContext from './context'
-import type { ManagerProps } from './interfaces'
+import { sortRows } from './functions'
+import type { MwManagerProps } from './interfaces'
 import * as S from './styled'
 
 const defaultMessages = {
@@ -12,7 +13,7 @@ const defaultMessages = {
   emptyWithFilters: 'Nenhum resultado encontrado para a busca realizada',
 }
 
-const Manager = (props: ManagerProps) => {
+const MwManager = (props: MwManagerProps) => {
   const {
     columns,
     rows,
@@ -34,27 +35,27 @@ const Manager = (props: ManagerProps) => {
     ...props,
   }
 
-  const { sort, setSort } = props.sort
-    ? props.sort
-    : {
-        sort: null,
-        setSort: () => {},
-      }
-
   const setPage = props.setPage || (() => {})
 
   const paginator = props.paginator || (() => {})
 
   const messages = { ...defaultMessages, ...(props.messages || {}) }
+  const [internalSort, setInternalSort] = useState<SortState | null>(null)
+  const currentSort = props.sort?.sort ?? internalSort
+  const setCurrentSort = props.sort?.setSort ?? setInternalSort
+  const sortedRows = sortRows(rows, currentSort, columns)
 
   const ref = useRef<HTMLDivElement | null>(null)
+  const scrollRef = useRef<HTMLTableSectionElement | null>(null)
   const lastResetKeyRef = useRef<typeof resetKey>(resetKey)
+  const [maxHeight, setMaxHeight] = useState<number | undefined>(undefined)
 
-  const getTbody = (element: HTMLDivElement): HTMLElement => {
-    // getting table element
-    const table = element.getElementsByTagName('table')[0]
-    // getting tbody element
-    return table.tBodies[0]
+  const updateMaxHeight = () => {
+    if (!ref.current) return
+
+    const rect = ref.current.getBoundingClientRect()
+    const available = Math.floor(window.innerHeight - rect.top - 10)
+    setMaxHeight(available > 0 ? available : 0)
   }
 
   // quando aplica filtros/reset, deve ser mantido selecionado somente os elementos que estão na tela
@@ -77,29 +78,31 @@ const Manager = (props: ManagerProps) => {
     lastResetKeyRef.current = resetKey
   }, [rows, resetKey, page])
 
+  useLayoutEffect(() => {
+    updateMaxHeight()
+  }, [])
+
   useEffect(() => {
-    // if page is reseted to 1
-    if (page === 1) {
-      if (ref && ref.current) {
-        // getting tbody element
-        const tbody = getTbody(ref.current)
-        // scrolling tbody to top
-        tbody.scrollTop = 0
-      }
+    window.addEventListener('resize', updateMaxHeight)
+    return () => window.removeEventListener('resize', updateMaxHeight)
+  }, [])
+
+  useEffect(() => {
+    if (page === 1 && scrollRef.current) {
+      scrollRef.current.scrollTop = 0
     }
   }, [page])
 
   useEffect(() => {
     if (resetKey === undefined) return
 
-    if (ref && ref.current) {
-      const tbody = getTbody(ref.current)
-      tbody.scrollTop = 0
+    if (scrollRef.current) {
+      scrollRef.current.scrollTop = 0
     }
   }, [resetKey])
 
   const _setSort = (newState: SortState | null) => {
-    setSort(newState)
+    setCurrentSort(newState)
     setPage(1)
   }
 
@@ -108,11 +111,11 @@ const Manager = (props: ManagerProps) => {
       <ManagerContext.Provider
         value={{
           columns,
-          rows,
+          rows: sortedRows,
           hasFilters,
           messages,
           sort: {
-            sort: sort,
+            sort: currentSort,
             setSort: _setSort,
           },
           loading,
@@ -128,13 +131,15 @@ const Manager = (props: ManagerProps) => {
           onClickColumn,
         }}
       >
-        <S.Table>
-          {!headerless && <TableHeader />}
-          <TableBody />
-        </S.Table>
+        <S.ScrollArea $maxHeight={maxHeight}>
+          <S.Table>
+            {!headerless && <TableHeader />}
+            <TableBody ref={scrollRef} />
+          </S.Table>
+        </S.ScrollArea>
       </ManagerContext.Provider>
     </S.Container>
   )
 }
 
-export default Manager
+export default MwManager

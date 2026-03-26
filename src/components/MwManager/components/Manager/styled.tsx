@@ -17,7 +17,6 @@ export const Table = styled.table`
   height: 100%;
   min-height: 0;
 
-  border: 1px solid #e2e2e3;
   background-color: #fff;
 
   overflow: hidden;
@@ -39,6 +38,20 @@ export const Table = styled.table`
   }
 `
 
+export const ScrollArea = styled.div<{ $maxHeight?: number }>`
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  max-height: ${({ $maxHeight: maxHeight }) =>
+    maxHeight ? `${maxHeight}px` : 'none'};
+  border-bottom: 1px solid #e2e2e3;
+  border-left: 1px solid #e2e2e3;
+
+  ${GlobalStyles.scrollbar}
+`
+
 export const Container = styled(GlobalStyles.ThemeContainer)<ContainerProps>`
   flex: 1;
   height: 100%;
@@ -50,6 +63,15 @@ export const Container = styled(GlobalStyles.ThemeContainer)<ContainerProps>`
   flex-direction: column;
 
   ${Table} {
+    ${({ $borderless: borderless }) => {
+      if (!borderless) return
+      return css`
+        border: none;
+      `
+    }}
+  }
+
+  ${ScrollArea} {
     ${({ $borderless: borderless }) => {
       if (!borderless) return
       return css`

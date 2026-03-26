@@ -1,6 +1,6 @@
 import type { TextareaHTMLAttributes } from 'react'
 
-export interface TextAreaProps
+export interface MwTextAreaProps
   extends Omit<
     TextareaHTMLAttributes<HTMLTextAreaElement>,
     'name' | 'width' | 'height' | 'placeholder' | 'disabled'
@@ -13,6 +13,6 @@ export interface TextAreaProps
 }
 
 export type StyledTextAreaProps = {
-  $width: TextAreaProps['width']
-  $height: TextAreaProps['height']
+  $width: MwTextAreaProps['width']
+  $height: MwTextAreaProps['height']
 }

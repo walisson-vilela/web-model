@@ -50,8 +50,7 @@ export const Header = styled.div`
 `
 
 export const Title = styled.div`
-  ${({ theme: { useTypography } }) =>
-    useTypography('p', { fontWeight: 'bold' })}
+  ${({ theme: { useTypography } }) => useTypography('p')}
   font-size: 14px;
   color: ${({ theme: { getColor } }) => getColor('greyishBlue', 50)};
 `

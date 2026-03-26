@@ -1,4 +1,4 @@
-import { Icon } from '..'
+import { MwIcon } from '..'
 
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
@@ -202,7 +202,7 @@ const SignatureInput = ({
             disabled={loading || name.trim().length < 1}
             title='Trocar fonte'
           >
-            <Icon type='feather' icon='type' />
+            <MwIcon type='feather' icon='type' />
           </button>
 
           <button
@@ -214,11 +214,11 @@ const SignatureInput = ({
             disabled={empty}
             title='Recortar'
           >
-            <Icon type='feather' icon='scissors' />
+            <MwIcon type='feather' icon='scissors' />
           </button>
 
           <button onClick={onClearHandler} disabled={empty} title='Limpar'>
-            <Icon type='feather' icon='delete' />
+            <MwIcon type='feather' icon='delete' />
           </button>
         </div>
 

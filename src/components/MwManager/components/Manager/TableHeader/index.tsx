@@ -4,6 +4,7 @@ import Input from '../../../../Input'
 import EllipsisContainer from '../../EllipsisContainer'
 import Sort from '../Sort'
 import ManagerContext from '../context'
+import { getSelectableRows } from '../functions'
 import type { ColumnInterface } from '../interfaces'
 
 import * as S from './styled'
@@ -17,12 +18,16 @@ import * as S from './styled'
 export const TableHeader = () => {
   const context = useContext(ManagerContext)
   const { columns, checkeds, rows, getItemMenu, list, borderless } = context
+  const selectableRows = checkeds ? getSelectableRows(rows, context) : []
 
   const getContent = (col: ColumnInterface) => {
-    if (!col.sortKey) {
+    const fieldKey = col.sortKey || col.key
+
+    if (!fieldKey) {
       return <EllipsisContainer>{col.content}</EllipsisContainer>
     }
-    return <Sort fieldKey={col.sortKey}>{col.content}</Sort>
+
+    return <Sort fieldKey={fieldKey}>{col.content}</Sort>
   }
 
   const bgcolor = list ? '#FFF' : undefined
@@ -33,18 +38,24 @@ export const TableHeader = () => {
         {checkeds && (
           <S.CheckHeaderCell $bgcolor={bgcolor} $borderless={borderless}>
             {(() => {
-              if (checkeds.hideCheckAll) {
+              if (checkeds.hideCheckAll || selectableRows.length === 0) {
                 return <div style={{ width: 17, height: 17 }} />
               }
+
+              const selectedCount = checkeds.checkeds.filter((checked) =>
+                selectableRows.some(
+                  (row) => JSON.stringify(row) === JSON.stringify(checked),
+                ),
+              ).length
 
               return (
                 <Input
                   type='checkbox'
                   onChange={(e) => {
-                    checkeds.setCheckeds(e.target.checked ? rows : [])
+                    checkeds.setCheckeds(e.target.checked ? selectableRows : [])
                   }}
                   checked={
-                    checkeds.checkeds.length === rows.length && rows.length > 0
+                    selectedCount === selectableRows.length && selectableRows.length > 0
                   }
                 />
               )

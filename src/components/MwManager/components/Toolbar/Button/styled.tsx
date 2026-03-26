@@ -3,10 +3,7 @@ import styled from 'styled-components'
 import { TransparentButton } from '../../../styled'
 
 export const Button = styled(TransparentButton)`
-  ${({ theme }) =>
-    theme.useTypography('p', {
-      fontWeight: 'bold',
-    })}
+  ${({ theme }) => theme.useTypography('p')}
 
   text-align: center;
   position: relative;

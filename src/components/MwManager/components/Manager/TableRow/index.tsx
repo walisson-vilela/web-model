@@ -5,6 +5,7 @@ import { isObject } from '../../../functions'
 import Dropdown from '../../Dropdown'
 import EllipsisContainer from '../../EllipsisContainer'
 import ManagerContext from '../context'
+import { isRowSelectable } from '../functions'
 import type { Row } from '../interfaces'
 
 import * as S from './styled'
@@ -13,10 +14,12 @@ export interface TableRowProps {
   /** conteudo da linha */
   row: Row
   index: number
+  style?: React.CSSProperties
+  last?: boolean
 }
 
 export const TableRow = (props: TableRowProps) => {
-  const { row, index: i } = { ...props }
+  const { row, index: i, style, last } = { ...props }
 
   const context = useContext(ManagerContext)
   const {
@@ -55,25 +58,30 @@ export const TableRow = (props: TableRowProps) => {
   })
 
   const disabled = getRowDisabled(row)
+  const selectable = !checkeds || isRowSelectable(row, i, context)
 
   return (
-    <S.TableRow $stripped={stripped}>
+    <S.TableRow $stripped={stripped} $last={last} style={style}>
       {checkeds && (
         <S.CheckCell $verticalalignment={checkeds.verticalAlign}>
-          <Input
-            type={checkeds.asRadio ? 'radio' : 'checkbox'}
-            onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
-              checkeds.setCheckeds((prev) => {
-                const newState = prev.filter(
-                  (e) => JSON.stringify(e) !== JSON.stringify(row),
-                )
-                return event.target.checked ? [...newState, row] : newState
-              })
-            }}
-            checked={checkeds.checkeds
-              .map((e) => JSON.stringify(e))
-              .includes(JSON.stringify(row))}
-          />
+          {selectable ? (
+            <Input
+              type={checkeds.asRadio ? 'radio' : 'checkbox'}
+              onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
+                checkeds.setCheckeds((prev) => {
+                  const newState = prev.filter(
+                    (e) => JSON.stringify(e) !== JSON.stringify(row),
+                  )
+                  return event.target.checked ? [...newState, row] : newState
+                })
+              }}
+              checked={checkeds.checkeds
+                .map((e) => JSON.stringify(e))
+                .includes(JSON.stringify(row))}
+            />
+          ) : (
+            <div style={{ width: 17, height: 17 }} />
+          )}
         </S.CheckCell>
       )}
 

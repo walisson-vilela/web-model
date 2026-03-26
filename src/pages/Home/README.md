@@ -27,9 +27,9 @@ src/pages/Home/
 
 - `components/HomeLayout`
   - Componente shell.
-  - Concentra header, menu lateral, o `Tabs` compartilhado, comportamento de colapso/expansão e a área que recebe as telas internas.
+  - Concentra header, menu lateral, o `MwTabs` compartilhado, comportamento de colapso/expansão e a área que recebe as telas internas.
   - A navegação interna é controlada pelo próprio shell, que sincroniza a URL com a aba ativa.
-  - O `Tabs` recebe um `header` separado para título, subtítulo e ações da screen ativa.
+  - O `MwTabs` recebe um `header` separado para título, subtítulo e ações da screen ativa.
 
 - `screens/index.tsx`
   - Catálogo único das telas internas da Home.
@@ -76,19 +76,19 @@ src/pages/Home/
 - A rota `/main` redireciona para `/main/home`.
 - O `HomeLayout` monta o shell visual da aplicação.
 - O menu lateral usa o catálogo de `screens` para abrir novas tabs.
-- O `Tabs` renderiza as screens abertas e permite fechar e alternar abas.
+- O `MwTabs` renderiza as screens abertas e permite fechar e alternar abas.
 - O header da screen é separado do conteúdo para permitir título, subtítulo e ações dinâmicas.
 - O conteúdo da screen entra abaixo do header, sem fundo próprio obrigatório.
 - `Dashboard` é a primeira screen real da Home.
 - `ScreenPlaceholder` é a base para novas telas até a implementação final.
-- Todos os ícones usados na Home vêm de `src/assets/icons/feather` via `Icon`.
+- Todos os ícones usados na Home vêm de `src/assets/icons/feather` via `MwIcon`.
 
 ## Comportamento
 
-- As tabs da Home são controladas pelo `Tabs` compartilhado.
+- As tabs da Home são controladas pelo `MwTabs` compartilhado.
 - Cada screen aberta fica visível dentro da própria barra de tabs.
 - O menu lateral é padrão da Home e também serve como base para outras telas internas.
-- Quando o menu está colapsado, o hover mostra o flyout com os itens do grupo.
+- Quando o menu está colapsado, o hover mostra o layout com os itens do grupo.
 - Quando o menu está expandido, os grupos viram seções com submenu interno.
 - O conteúdo principal pode rolar sem afetar a estrutura da página.
 
