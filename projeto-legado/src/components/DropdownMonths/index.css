@@ -1,0 +1,13 @@
+.dropdown-months {
+    color: var(--black) !important;
+}
+
+.dropdown-months > .icon {
+    margin-left: .5rem !important;
+    font-size: .85rem;
+    margin-top: .2rem;
+}
+
+.dropdown-months > .react-calendar.year {
+    width: 20rem !important;
+}

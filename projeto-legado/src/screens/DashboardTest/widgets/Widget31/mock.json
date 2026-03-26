@@ -1,0 +1,40 @@
+{
+    "credits":false,
+        "chart": {
+            "type": "spline",
+            "backgroundColor":null,
+            "height": "230px"
+        },
+        "title": {
+
+            "text": ""
+        },
+        "subtitle": {
+            "text": ""
+        },
+        "xAxis": {
+            "categories": []
+        },
+        "yAxis": {
+            "visible":false,
+            "title": {
+                "text": ""
+            }
+
+        },
+        "tooltip": {
+            "crosshairs": true,
+            "shared": true
+        },
+        "plotOptions": {
+            "spline":{
+                "marker":{
+                    "enabled": false
+                }
+            }
+        },
+
+        "series": [
+               ]
+
+}

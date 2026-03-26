@@ -1,0 +1,81 @@
+{
+    "chart": {
+        "type": "solidgauge",
+        "backgroundColor": null,
+        "height": "180px"
+    },
+
+    "title": {
+        "text": "99",
+        "align": "center",
+        "verticalAlign": "middle",
+        "y": 50,
+        "style":{
+            "fontSize":16,
+            "color":"#000"
+        }
+    },
+
+    "pane": {
+        "center": ["50%", "85%"],
+        "size": "140%",
+        "startAngle": -90,
+        "endAngle": 90,
+        "background": {
+            "backgroundColor": "#EEE",
+            "innerRadius": "60%",
+            "outerRadius": "100%",
+            "shape": "arc"
+        }
+    },
+    "credits": {
+        "enabled": false
+    },
+
+    "colors": ["#2D9AFF"],
+
+    "exporting": {
+        "enabled": false
+    },
+
+    "tooltip": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "name": "",
+            "data": [],
+            "tooltip": {
+                "valueSuffix": "%"
+            }
+        }
+    ],
+
+    "yAxis": {
+        "labels": {
+            "enabled": false
+        },
+        "min": 0,
+        "max": 100,
+        "gridLineColor": "transparent",
+        "lineColor": "#ccc",
+        "minorTickLength": 0,
+        "tickPositions": [73],
+        "tickColor": "#424242",
+        "tickPosition": "inside",
+        "tickLength": 32,
+        "tickWidth": 3,
+        "zIndex": 100
+    },
+    "plotOptions": {
+        "solidgauge": {
+            "innerRadius": "60%",
+            "radius": "100%",
+            "dataLabels": {
+                "enabled": false,
+                "useHTML": true,
+                "zIndex": 1000
+            }
+        }
+    }
+}

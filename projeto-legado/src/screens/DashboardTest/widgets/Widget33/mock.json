@@ -1,0 +1,35 @@
+{
+    "chart": {
+        "type": "boxplot",
+        "backgroundColor":null,
+        "height": "230px"
+    },
+
+    "title": {
+        "text": ""
+    },
+
+    "legend": {
+        "enabled": false
+    },
+    "credits": {
+        "enabled": false
+   },
+
+
+    "xAxis": {
+        "categories": [],
+        "title": {
+            "text": ""
+        }
+    },
+
+    "yAxis":{
+
+        "title":{
+            "text":""
+        }
+    },
+
+    "series": []
+}

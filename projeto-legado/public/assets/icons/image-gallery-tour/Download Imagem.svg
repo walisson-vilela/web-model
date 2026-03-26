@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="30" viewBox="0 0 31 30">
+  <defs>
+    <clipPath id="clip-Download_Imagem">
+      <rect width="31" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Download_Imagem" data-name="Download Imagem" clip-path="url(#clip-Download_Imagem)">
+    <g id="Grupo_15642" data-name="Grupo 15642" transform="translate(0 -2)">
+      <g id="check_circle_black_24dp" transform="translate(5 7)">
+        <path id="Caminho_3271" data-name="Caminho 3271" d="M0,0H24V20.767H0Z" fill="none"/>
+      </g>
+    </g>
+    <path id="Caminho_3481" data-name="Caminho 3481" d="M42.378,19a.85.85,0,0,0-.85.849v9.692L38.28,26.293a.85.85,0,1,0-1.2,1.2l4.7,4.7a.85.85,0,0,0,1.2,0l4.7-4.7a.85.85,0,0,0-1.2-1.2l-3.249,3.25V19.85a.85.85,0,0,0-.849-.85Z" transform="translate(-26.771 -12.803)" fill="#b2b2b2"/>
+    <path id="Caminho_3482" data-name="Caminho 3482" d="M19.85,74a.85.85,0,0,0-.85.85v2.8a3.5,3.5,0,0,0,3.5,3.5H33.882a3.5,3.5,0,0,0,3.5-3.5v-2.8a.85.85,0,1,0-1.7,0v2.8a1.8,1.8,0,0,1-1.8,1.8H22.5a1.8,1.8,0,0,1-1.8-1.8v-2.8a.849.849,0,0,0-.85-.85Z" transform="translate(-12.582 -56.575)" fill="#b2b2b2"/>
+  </g>
+</svg>

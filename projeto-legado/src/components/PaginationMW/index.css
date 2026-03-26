@@ -1,0 +1,56 @@
+.pagination-mw {
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.pagination-mw > .right.menu > .item:before {
+    background: transparent;
+}
+
+.pagination-mw > .right.menu > .item {
+    color: var(--black-80);
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.pagination-mw > .right.menu > .item:nth-child(3) {
+    font-weight: 700;
+    color: var(--headers-blue);
+    font-size: 1.2rem;
+}
+
+.popup-pagination-mw > .ui.menu > .ui.active.visible > .visible.menu {
+    right: 15.6rem !important;
+}
+
+/* TRANSPARENT */
+.pagination-mw.transparent {
+    background-color: transparent !important;
+}
+
+.pagination-mw.transparent > .right.menu > .item {
+    color: #FFF;
+}
+
+.pagination-mw.transparent > .right.menu > .item > .pagination {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, .8);
+}
+
+.pagination-mw.transparent > .right.menu > .item > .pagination > .item {
+    color: #FFF;
+}
+
+.pagination-mw.transparent > .right.menu > .item > .pagination > .item:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, .7);
+    border-left: 1px solid transparent;
+}
+
+.pagination-mw.transparent > .right.menu > .item > .pagination > .item:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.pagination-mw.transparent > .right.menu > .item > .pagination > .item.active {
+    background-color: rgba(255, 255, 255, .8);
+    color: var(--headers-blue);
+}

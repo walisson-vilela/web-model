@@ -1,0 +1,11 @@
+.ui.bottom.center.whatsapp-options {
+  max-width: 200px !important;
+  margin: 0 !important;
+  padding:14px !important;
+
+}
+
+
+.ui.bottom.center .whatsapp-options::before {
+  display: none !important;
+}

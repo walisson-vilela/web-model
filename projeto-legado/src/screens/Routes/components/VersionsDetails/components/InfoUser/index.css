@@ -1,0 +1,42 @@
+.popupUserInfo>h3.header>.content {
+    min-width: 36rem;
+    color: var(--black-70);
+    margin-top: .5rem;
+}
+
+.popupUserInfo>h3.header>.content .label {
+    float: right;
+    background-color: var(--black-10);
+    color: var(--black-30);
+}
+
+.popupUserInfo>.ui.grid>.three {
+    padding-top: 0;
+    padding-bottom: .5rem;
+    color: var(--black-60);
+}
+
+.popupUserInfo>.ui.grid>.three strong{
+    color: var(--black-80);
+}
+
+.TabInfo {
+    max-width: 36rem !important;
+    color: var(--black-60);
+}
+
+.TabInfo strong {
+    color: var(--black-70);
+}
+
+.TabInfo>.ui.segment>ul.ui.list > li:nth-child(1) {
+    width: 13rem;
+}
+
+.TabInfo>.ui.segment>ul.ui.list > li:nth-child(2) {
+    width: 13rem;
+}
+
+.TabInfo h3 {
+    color: var(--black-70) !important;
+}

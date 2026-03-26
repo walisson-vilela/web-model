@@ -1,0 +1,7 @@
+.semantic_ui_range_inner {
+  margin: 0 !important;
+}
+
+.semantic_ui_range_inner div:not(:last-child) {
+  border-radius: 0 !important;
+}

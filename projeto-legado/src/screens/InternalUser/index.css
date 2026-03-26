@@ -1,0 +1,4 @@
+.invalid, .invalid>input {
+    border-color: #9f3a38 !important;
+    color: #9f3a38 !important;
+}

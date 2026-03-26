@@ -1,0 +1,21 @@
+
+
+
+  @media print {
+    .container-attendences {
+      width: 25% !important;
+
+    }
+
+    div.hide-on-print, button.hide-on-print, *.hide-on-print {
+      display: none !important;
+    }
+
+    .attendences1,.attendences2{
+        width:100% !important;
+    }
+    .pagebreak {
+      margin-top: 210px;
+    }
+
+  }

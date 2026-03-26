@@ -1,0 +1,19 @@
+
+
+
+  @media print {
+    .range-quality{
+      width: 24% !important;
+
+    }
+
+    div.hide-on-print, button.hide-on-print, *.hide-on-print {
+      display: none !important;
+    }
+
+
+    .pagebreak {
+      margin-top: 210px;
+    }
+
+  }

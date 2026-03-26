@@ -1,0 +1,41 @@
+.mw-840 {
+  max-width: 840px;
+}
+
+.mw-880 {
+  max-width: 880px;
+}
+
+.modalClose {
+  position: absolute;
+  top: 16px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.modalClose span {
+  color: #CCC;
+  font-size: 2rem;
+  padding: 8px;
+}
+
+.ui.inverted.blue.menu {
+  background-color: #3455AB !important;
+}
+
+.modal-crop {
+  width: 834px !important;
+  height: 538px !important;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: #fff;
+}
+
+.delete-crop {
+  width: 500px !important;
+  height: 228px !important;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}

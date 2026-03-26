@@ -1,0 +1,34 @@
+.itensHidde {
+    color: #333 !important;
+    margin-left: 27px;
+}
+
+.itensHidde small {
+    display: block;
+    color: #555;
+}
+
+.itensHiddeIcon .mw-icon{
+    position: absolute !important;
+    top: 17px !important;
+}
+
+.limitText {
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.ui.borderless.attached.basic.menu {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.ui.borderless.attached.basic.menu > .right.menu > .item,
+.ui.borderless.attached.basic.menu > .right.menu > .item > .ui.fluid.input.inputCenter > input {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: transparent !important;
+    border-color: #FFF;
+}

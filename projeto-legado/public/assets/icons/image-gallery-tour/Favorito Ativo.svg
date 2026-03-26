@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="30" viewBox="0 0 31 30">
+  <defs>
+    <clipPath id="clip-Favorito_Ativo">
+      <rect width="31" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Favorito_Ativo" data-name="Favorito Ativo" clip-path="url(#clip-Favorito_Ativo)">
+    <g id="Grupo_15642" data-name="Grupo 15642" transform="translate(0 -2)">
+      <g id="check_circle_black_24dp" transform="translate(5 7)">
+        <path id="Caminho_3271" data-name="Caminho 3271" d="M0,0H24V20.767H0Z" fill="none"/>
+      </g>
+    </g>
+    <path id="Caminho_3502" data-name="Caminho 3502" d="M15.393,19.893a1.948,1.948,0,0,1-.873-.218l-3.913-2.026L6.686,19.675a1.86,1.86,0,0,1-2.7-1.965l.751-4.367L1.559,10.251a1.86,1.86,0,0,1,1.031-3.17l4.367-.638L8.913,2.469a1.879,1.879,0,0,1,3.363,0l1.956,3.974,4.367.638a1.86,1.86,0,0,1,1.031,3.17L16.45,13.343,17.2,17.71a1.869,1.869,0,0,1-1.834,2.183ZM10.607,3.177a.1.1,0,0,0-.1.07L8.345,7.614a.873.873,0,0,1-.664.472l-4.839.707a.206.206,0,0,0-.1.236L6.24,12.443a.873.873,0,0,1,.253.769L5.62,18.033a.122.122,0,0,0,.044.114.1.1,0,0,0,.122,0l4.323-2.28a.873.873,0,0,1,.812,0l4.367,2.28a.1.1,0,0,0,.122,0,.122.122,0,0,0,.044-.114l-.83-4.821a.873.873,0,0,1,.349-.8l3.494-3.415a.121.121,0,0,0-.087-.157l-4.839-.707a.873.873,0,0,1-.664-.472L10.721,3.29a.114.114,0,0,0-.114-.114Z" transform="translate(5.418 4.665)" fill="#5c77bb" opacity="0.9"/>
+  </g>
+</svg>

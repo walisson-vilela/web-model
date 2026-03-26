@@ -1,0 +1,27 @@
+.headerMW {
+    display: flex;
+}
+
+.headerMW > img.ui.circular.image {
+    width: 2.5em !important;
+    height: 2.5em !important;
+}
+
+.headerMW.ui.header > .icon:not(.image) {
+    font-size: 1.25em !important;
+}
+
+.headerMW.ui.header > .content {
+    width: 80%;
+}
+
+.headerMW.ui.header > .content > div:first-child {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ui.top.left.pointing.dropdown > .menu {
+    top: 70% !important;
+    left: -10px !important;
+}

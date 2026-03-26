@@ -1,0 +1,34 @@
+{
+    "colors": ["#E23851", "#66BB6A"],
+    "chart": {
+        "type": "bar",
+        "backgroundColor": null,
+        "height": "150px"
+    },
+    "title": {
+        "text": ""
+    },
+    "xAxis": {
+        "visible": false
+    },
+    "credits": {
+        "enabled": false
+    },
+    "yAxis": {
+        "title": null,
+        "softMax": 100,
+        "max": 100,
+        "endOnTick": false
+    },
+    "legend": {
+        "reversed": false
+    },
+    "plotOptions": {
+        "bar": {
+            "dataLabels": {
+                "enabled": false
+            }
+        }
+    },
+    "series": []
+}

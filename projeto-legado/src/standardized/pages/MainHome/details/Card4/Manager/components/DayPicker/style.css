@@ -1,0 +1,115 @@
+.mw-daypicker-root,
+.mw-daypicker-input,
+.mw-daypicker-calendar {
+  margin: 0;
+  padding: 0;
+}
+
+.mw-daypicker-root {
+  margin-left: -8px;
+}
+
+.mw-daypicker-input {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mw-daypicker-arrow,
+.mw-daypicker-trigger,
+.mw-daypicker-label,
+.mw-daypicker-nav,
+.mw-daypicker-cell {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.mw-daypicker-label {
+  font-size: 14px;
+  min-width: 72px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.mw-daypicker-input {
+  gap: 6px;
+}
+
+/* Arrow color to match print */
+.mw-daypicker-arrow i.icon,
+.mw-daypicker-nav i.icon {
+  color: #d6d6d6 !important;
+}
+
+/* Remove padding/margin from the semantic-ui popup itself */
+.ui.popup.mw-daypicker-popup {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.ui.popup.mw-daypicker-popup:before {
+  display: none !important;
+}
+
+.mw-daypicker-calendar {
+  width: 280px;
+  background: #fff;
+}
+
+.mw-daypicker-header {
+  display: grid;
+  grid-template-columns: 32px 1fr 32px;
+  align-items: center;
+  height: 40px;
+}
+
+.mw-daypicker-title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.mw-daypicker-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-top: 1px solid #e6e6e6;
+}
+
+.mw-daypicker-weekday {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.mw-daypicker-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.mw-daypicker-cell {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  font-size: 13px;
+}
+
+.mw-daypicker-cell:nth-child(7n + 1) {
+  border-left: 1px solid #e6e6e6;
+}
+
+.mw-daypicker-cell.muted {
+  color: #bdbdbd;
+}
+
+.mw-daypicker-cell.selected {
+  background: #3455ab;
+  color: #fff;
+}

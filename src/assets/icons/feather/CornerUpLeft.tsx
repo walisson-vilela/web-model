@@ -1,0 +1,22 @@
+import * as React from 'react'
+
+const SvgCornerUpLeft = (props: React.SVGAttributes<SVGSVGElement>) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={16}
+    height={16}
+    fill='none'
+    stroke='currentColor'
+    strokeLinecap='round'
+    strokeLinejoin='round'
+    strokeWidth={2}
+    className='corner-up-left_svg__feather corner-up-left_svg__feather-corner-up-left'
+    viewBox='0 0 24 24'
+    {...props}
+  >
+    <path d='M9 14 4 9l5-5' />
+    <path d='M20 20v-7a4 4 0 0 0-4-4H4' />
+  </svg>
+)
+
+export default SvgCornerUpLeft

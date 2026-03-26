@@ -1,0 +1,45 @@
+.popupFilters {
+    max-width: 235px;
+}
+
+.heightPopup {
+    max-height: 33vh;
+    overflow-y: auto;
+}
+
+.itemFilter {
+    font-size: .9em;
+}
+
+.itemFilter .icon-chevron-left {
+    float: left !important;
+    margin-left: 0 !important;
+    margin-right: .4em !important;
+}
+
+.wraperMW .default.text {
+    max-width: 10ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.positionYMW {
+    position: fixed !important;
+    left: 57.9rem !important;
+    right: auto !important;
+    bottom: auto !important;
+    top: 16.6rem !important;
+}
+
+@media (max-width: 1024px) {
+    .positionYMW {
+        left: 33.8rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .positionYMW {
+        left: 15.6rem !important;
+    }
+}

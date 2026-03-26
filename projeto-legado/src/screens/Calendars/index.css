@@ -1,0 +1,15 @@
+.manager_Calendars .min_fixed{
+    width: 116px;
+    text-align: center !important;
+}
+
+.manager_Calendars thead th:nth-child(8),
+.manager_Calendars tbody td:nth-child(8){
+    width: 16%;
+}
+
+
+.manager_Calendars tbody td:nth-child(2) > div {
+    color: var(--black-60);
+    font-size: 0.90em;
+}

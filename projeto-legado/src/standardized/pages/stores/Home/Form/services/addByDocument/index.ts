@@ -1,0 +1,24 @@
+import axios from '../../../../../../../services/Axios/instance'
+import { numberOrDefault } from '../../../../../../../utils/Formatters'
+import { isObject } from '../../../../../../utils/validators'
+
+const addByDocument = async (document: string): Promise<number> => {
+  const payload = {
+    document,
+    stores_contractor: {},
+  }
+
+  const { data: response } = await axios.post('v1/tr/stores/add', payload)
+
+  if (!isObject(response) || !response.success || !isObject(response.data)) {
+    throw new Error('Invalid response')
+  }
+
+  const store_id = numberOrDefault(response.data.id)
+
+  if (!store_id) throw new Error('Missing Id')
+
+  return store_id
+}
+
+export default addByDocument

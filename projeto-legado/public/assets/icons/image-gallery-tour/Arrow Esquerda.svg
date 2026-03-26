@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="77" viewBox="0 0 34 77">
+  <defs>
+    <clipPath id="clip-Arrow_Esquerda">
+      <rect width="34" height="77"/>
+    </clipPath>
+  </defs>
+  <g id="Arrow_Esquerda" data-name="Arrow Esquerda" clip-path="url(#clip-Arrow_Esquerda)">
+    <path id="Subtração_80" data-name="Subtração 80" d="M18070-11578.247v-71.506a36.3,36.3,0,0,1,11.152,4.8,36.741,36.741,0,0,1,8.869,8.047,36.535,36.535,0,0,1,5.861,10.563A36.784,36.784,0,0,1,18098-11614a36.78,36.78,0,0,1-2.117,12.347,36.579,36.579,0,0,1-5.861,10.564,36.737,36.737,0,0,1-8.869,8.046,36.262,36.262,0,0,1-11.15,4.8Z" transform="translate(-18066.9 11652.253)" fill="#ededed" opacity="0.5"/>
+    <path id="Caminho_4107" data-name="Caminho 4107" d="M15.576,3.7,9.272,10l6.3,6.3L13.88,18l-8-8,8-8Z" transform="translate(4.221 28.499)" fill="#fff"/>
+  </g>
+</svg>

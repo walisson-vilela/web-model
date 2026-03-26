@@ -1,0 +1,97 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 31,
+            "submitted": true,
+            "submitted_original": true,
+            "finished": false,
+            "approved": false,
+            "reproved": false,
+            "route": {
+                "id": 1609,
+                "name": "ZONA TRADE MGS 1",
+                "published_id": 1609,
+                "draft_id": 1609,
+                "draft_version": {
+                    "id": 1609,
+                    "statistics": [
+                        {
+                            "reference_month": "2019-05-01T00:00:00+00:00",
+                            "store_count": 7,
+                            "route_version_id": 1609,
+                            "performance": 0,
+                            "tma_count": 30,
+                            "tma_true_count": 0,
+                            "tmo_count": 0,
+                            "tmo_true_count": 0,
+                            "billing_count": 10213.04,
+                            "cost_trip_count": 0,
+                            "cost_trip_true_count": 0,
+                            "cost_attendance_count": 0,
+                            "cost_perc_count": null,
+                            "damage_count": 0
+                        }
+                    ]
+                },
+                "published_version": {
+                    "id": 1609,
+                    "statistics": [
+                        {
+                            "reference_month": "2019-05-01T00:00:00+00:00",
+                            "store_count": 7,
+                            "route_version_id": 1609,
+                            "performance": 0,
+                            "tma_count": 30,
+                            "tma_true_count": 0,
+                            "tmo_count": 0,
+                            "tmo_true_count": 0,
+                            "billing_count": 10213.04,
+                            "cost_trip_count": 0,
+                            "cost_trip_true_count": 0,
+                            "cost_attendance_count": 0,
+                            "cost_perc_count": null,
+                            "damage_count": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 95,
+            "submitted": true,
+            "submitted_original": true,
+            "finished": false,
+            "approved": false,
+            "reproved": false,
+            "route": {
+                "id": 2807,
+                "name": "SUP. TRADE MGS",
+                "published_id": 2807,
+                "draft_id": null,
+                "draft_version": null,
+                "published_version": {
+                    "id": 2807,
+                    "statistics": [
+                        {
+                            "reference_month": "2019-05-01T00:00:00+00:00",
+                            "store_count": null,
+                            "route_version_id": 2807,
+                            "performance": 0,
+                            "tma_count": null,
+                            "tma_true_count": 0,
+                            "tmo_count": null,
+                            "tmo_true_count": 0,
+                            "billing_count": 0,
+                            "cost_trip_count": 0,
+                            "cost_trip_true_count": 0,
+                            "cost_attendance_count": 0,
+                            "cost_perc_count": null,
+                            "damage_count": 0
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+.screen-events-filters > .row > .column:nth-child(1) {
+    padding-right: 0 !important;
+}
+
+.screen-events-filters > .row > .column > .ui.selection.dropdown,
+.screen-events-filters > .row > .column > .ui.icon.input,
+.screen-events-filters > .row > .column > .ui.icon.input > input {
+    background: transparent !important;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.screen-events-filters > .row > .six.wide.column > .ui.selection.dropdown.w-100 > .text {
+    color: #EAEAEA;
+}

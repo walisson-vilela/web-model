@@ -1,0 +1,7 @@
+.ui.grid.modalConfirmDelete > div:first-child > div:first-child{
+    width: 152px !important;
+    flex-grow: 0;
+}
+.ui.grid.modalConfirmDelete > div:first-child > div:first-child > img{
+    padding: 16px;
+}

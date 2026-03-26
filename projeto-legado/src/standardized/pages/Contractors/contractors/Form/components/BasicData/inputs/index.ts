@@ -1,0 +1,5 @@
+export { default as Document } from './Document'
+export { default as Name } from './Name'
+export { default as OccupationArea } from './OccupationArea'
+export { default as SharedModel } from './SharedModel'
+export { default as Subdomain } from './Subdomain'

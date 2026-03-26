@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-Humor_ícone_Verde_Escuro">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="Humor_ícone_Verde_Escuro" data-name="Humor_ícone Verde Escuro" clip-path="url(#clip-Humor_ícone_Verde_Escuro)">
+    <rect id="Retângulo_1" data-name="Retângulo 1" width="36" height="36" fill="none"/>
+    <g id="Grupo_10572" data-name="Grupo 10572" transform="translate(-474 -309.396)">
+      <g id="_004-happy" data-name="004-happy" transform="translate(477.932 313.396)">
+        <g id="Grupo_10566" data-name="Grupo 10566" transform="translate(0.068)">
+          <g id="group-4svg">
+            <path id="path-1_32_" d="M141.545,345.5h-2.708a5.876,5.876,0,0,1-6.09-5.619.675.675,0,0,1,.674-.674h13.54a.675.675,0,0,1,.674.674A5.875,5.875,0,0,1,141.545,345.5Zm-7.391-4.944a4.627,4.627,0,0,0,4.682,3.6h2.708a4.628,4.628,0,0,0,4.683-3.6Z" transform="translate(-126.107 -322.227)" fill="#129105"/>
+            <path id="path-2_32_" d="M342.925,175.82a1.612,1.612,0,1,1-1.612-1.612A1.612,1.612,0,0,1,342.925,175.82Z" transform="translate(-322.699 -165.489)" fill="#129105"/>
+            <path id="path-3_32_" d="M157.763,175.82a1.611,1.611,0,1,1-1.611-1.612A1.611,1.611,0,0,1,157.763,175.82Z" transform="translate(-146.807 -165.489)" fill="#129105"/>
+            <path id="path-4_32_" d="M14.068,28a14,14,0,1,1,14-14A14.016,14.016,0,0,1,14.068,28Zm0-26.651A12.651,12.651,0,1,0,26.72,14,12.666,12.666,0,0,0,14.068,1.349Z" transform="translate(-0.068 0)" fill="#129105"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

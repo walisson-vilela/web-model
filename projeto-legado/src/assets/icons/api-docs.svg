@@ -1,0 +1,13 @@
+<svg height="22" width="22" viewBox="6.2 6.5 15 15">
+  <g id="Ícones_API_1" data-name="Ícones API – 1" clip-path="url(#clip-Ícones_API_1)">
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(-104)">
+      <g id="block_black_24dp" transform="translate(105 1)">
+        <path id="Caminho_3277" data-name="Caminho 3277" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+    </g>
+    <g id="api_black_24dp" transform="translate(2 2)">
+      <rect id="Retângulo_8032" data-name="Retângulo 8032" width="24" height="24" fill="none"/>
+      <path id="Caminho_10717" data-name="Caminho 10717" d="M9.273,8,8,9.273,6.727,8,8,6.727ZM8,4.182,9.349,5.531,10.94,3.94,8,1,5.06,3.94,6.651,5.531ZM4.182,8,5.531,6.651,3.94,5.06,1,8l2.94,2.94L5.531,9.349Zm7.636,0L10.469,9.349,12.06,10.94,15,8,12.06,5.06,10.469,6.651ZM8,11.818,6.651,10.469,5.06,12.06,8,15l2.94-2.94L9.349,10.469Z" transform="translate(4 4)" fill="#FFF"/>
+    </g>
+  </g>
+</svg>

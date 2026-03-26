@@ -1,0 +1,16 @@
+.menu-dropdown-answering > .item {
+    color: var(--black-60) !important;
+    font-size: .91em;
+}
+
+.popup-childrens {
+    width: 30rem;
+}
+
+.popup-childrens > h5.ui.header > .content {
+    color: var(--headers-blue) !important;
+}
+
+.popup-childrens > h5.ui.header > .content > .sub.header {
+    margin-top: 1rem;
+}

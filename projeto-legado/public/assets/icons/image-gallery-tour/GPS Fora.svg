@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-GPS_Fora">
+      <rect width="28" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="GPS_Fora" data-name="GPS Fora" clip-path="url(#clip-GPS_Fora)">
+    <g id="Grupo_15642" data-name="Grupo 15642" transform="translate(0 -2)">
+      <g id="check_circle_black_24dp" transform="translate(5 7)">
+        <path id="Caminho_3271" data-name="Caminho 3271" d="M0,0H24V20.767H0Z" fill="none"/>
+      </g>
+    </g>
+    <path id="Caminho_3514" data-name="Caminho 3514" d="M8.292,5.64a2.652,2.652,0,1,0,2.652,2.652A2.651,2.651,0,0,0,8.292,5.64Zm5.926,1.989A5.962,5.962,0,0,0,8.955,2.366V1H7.629V2.366A5.962,5.962,0,0,0,2.366,7.629H1V8.955H2.366a5.962,5.962,0,0,0,5.263,5.263v1.366H8.955V14.218a5.962,5.962,0,0,0,5.263-5.263h1.366V7.629H14.218Zm-5.926,5.3a4.64,4.64,0,1,1,4.64-4.64A4.637,4.637,0,0,1,8.292,12.932Z" transform="translate(5.6 5.708)" fill="#ef5350"/>
+  </g>
+</svg>

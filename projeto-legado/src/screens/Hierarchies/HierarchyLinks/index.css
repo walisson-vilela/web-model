@@ -1,0 +1,13 @@
+.listHierarchy>i.icon {
+    padding-right: 0 !important;
+}
+
+.listHierarchy>i.icon>.mw-icon {
+    font-size: 1.3em;
+    color: var(--black-70);
+    margin: 0;
+}
+
+.listHierarchy > .content > .description {
+    font-size: .85em;
+}

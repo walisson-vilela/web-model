@@ -1,0 +1,34 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 121,
+            "contractor_id": 223100,
+            "route_id": 2807,
+            "route_version_id": null,
+            "zone_id": 4100,
+            "store_id": null,
+            "reference_month": "2019-05-01T00:00:00+00:00",
+            "store_count": 7,
+            "people_count": 0,
+            "mvd_count": 20,
+            "billing_count": 10213.04,
+            "cost_count": 0,
+            "cost_perc_count": null,
+            "tmo_count": 0,
+            "tmd_count": null,
+            "tma_count": 30,
+            "wallet_count": 0,
+            "cost_trip_count": 0,
+            "cost_attendance_count": 0,
+            "performance": 0,
+            "damage_count": 0,
+            "cost_trip_true_count": 0,
+            "cost_attendance_true_count": 0,
+            "cost_true_count": 0,
+            "cost_perc_true_count": 0,
+            "tmo_true_count": 0,
+            "tma_true_count": 0
+        }
+    ]
+}

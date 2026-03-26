@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="40"
+   viewBox="1.5 0 17.5 22"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnsSvg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <rect
+     style="opacity:0.00100002;fill:#ff0000;stroke-width:1.5005"
+     id="rect848"
+     width="32"
+     height="40"
+     x="0"
+     y="0"
+     rx="0"
+     ry="0" />
+  <g
+     id="Grupo_30138"
+     data-name="Grupo 30138"
+     transform="matrix(0.49652643,0,0,0.49657587,2.1494207,0.49690447)">
+    <path
+       id="iconmonstr-location-9"
+       d="M 17.811,0 A 15.669,15.669 0 0 0 2,15.519 c 0,8.7 6.917,14.654 15.811,22.428 8.894,-7.774 15.811,-13.724 15.811,-22.428 A 15.669,15.669 0 0 0 17.811,0 Z"
+       transform="translate(-2)"
+       fill="#3455ab"
+       stroke="#ffffff"
+       stroke-width="2" />
+    <circle
+       id="Elipse_516"
+       data-name="Elipse 516"
+       cx="6.1009998"
+       cy="6.1009998"
+       r="6.1009998"
+       transform="translate(9.71,5.675)"
+       fill="#062063" />
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+{
+    "chart": {
+        "plotBackgroundColor": null,
+        "plotBorderWidth": null,
+        "plotShadow": false,
+        "type": "pie",
+        "backgroundColor": null,
+        "height": "230px"
+    },
+
+    "legend": {
+        "align": "right",
+        "verticalAlign": "middle",
+        "layout": "vertical",
+        "itemMarginBottom": 14,
+        "itemMarginRight": 30
+    },
+    "credits": false,
+    "title": {
+        "text": ""
+    },
+
+    "plotOptions": {
+        "pie": {
+            "allowPointSelect": false,
+            "colors": ["#3CC37B", "#E23851"],
+            "cursor": "pointer",
+            "dataLabels": {
+                "enabled": false
+            },
+            "showInLegend": true
+        }
+    },
+    "series": [
+        {
+            "name": "",
+            "data": [
+                { "name": "", "y": 30 },
+                { "name": "", "y": 70 }
+            ]
+        }
+    ]
+}

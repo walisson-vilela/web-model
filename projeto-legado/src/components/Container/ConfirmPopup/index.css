@@ -1,0 +1,14 @@
+.confirm-popup {
+    min-width: 26rem;
+    padding: 1rem;
+}
+
+.confirm-popup > h4.header > .content > .sub.header {
+    margin-top: 1rem;
+}
+
+.confirm-popup > .group-buttons {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,64 @@
+.tabsVersions > .ui.tabular.menu,
+.tabsVersions > .ui.tabular.menu .active.item,
+.tabsVersions > .ui.attached.segment {
+    border-color: transparent;
+}
+
+.tabsVersions > .ui.secondary.pointing.menu .active.item,
+.tabsVersions > .ui.secondary.pointing.menu .item {
+    margin-bottom: -2px !important;
+}
+
+.tabsVersions > .ui.secondary.pointing.menu .active.item,
+.tabsVersions > .ui.secondary.pointing.menu .active.item:hover {
+    border-color: var(--blue) !important;
+    color: var(--blue);
+}
+
+.btnView {
+    font-size: .8em;
+    color: #333333;
+    padding: 5px 10px;
+}
+
+.btnView:hover {
+    color: var(--headers-blue);
+}
+
+.tableVersionMW {
+    border: 4px solid #F3F3F3 !important;
+}
+
+.tableVersionMW td:nth-child(-n+2) {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tableVersionMW span {
+    display: block;
+    color: #666;
+    font-size: .9em;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.tdVersionMW {
+    background-color: #F3F3F3 !important;
+    color: #666;
+}
+
+.headerProduction {
+    color: var(--black-80) !important;
+    margin-bottom: 5px !important;
+}
+
+.tableFooterMW {
+    border: 0 !important;
+    background-color: #F3F3F3 !important;
+}
+
+.tableFooterMW h4 {
+    margin-bottom: 5px !important;
+    color: var(--black-80) !important;
+}

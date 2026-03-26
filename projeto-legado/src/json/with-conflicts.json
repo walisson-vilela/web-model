@@ -1,0 +1,46 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 7,
+            "submitted": true,
+            "submitted_original": true,
+            "finished": false,
+            "approved": false,
+            "reproved": false,
+            "route": {
+                "id": 1313,
+                "name": "ZONA TRADE MGS 5",
+                "published_id": 1313,
+                "draft_id": null,
+                "draft_version": null,
+                "published_version": {
+                    "id": 1313,
+                    "statistics": []
+                }
+            }
+        },
+        {
+            "id": 9,
+            "submitted": true,
+            "submitted_original": false,
+            "finished": false,
+            "approved": false,
+            "reproved": false,
+            "route": {
+                "id": 1373,
+                "name": "ZONA TRADE MGS 3",
+                "published_id": 1373,
+                "draft_id": 2989,
+                "draft_version": {
+                    "id": 2989,
+                    "statistics": []
+                },
+                "published_version": {
+                    "id": 1373,
+                    "statistics": []
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="28" viewBox="0 0 35 28">
+  <defs>
+    <clipPath id="clip-Girar">
+      <rect width="35" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="Girar" clip-path="url(#clip-Girar)">
+    <g id="Grupo_15642" data-name="Grupo 15642" transform="translate(0 -2)">
+      <g id="check_circle_black_24dp" transform="translate(5 7)">
+        <path id="Caminho_3271" data-name="Caminho 3271" d="M0,0H24V20.767H0Z" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_15643" data-name="Grupo 15643" transform="translate(-459 -298)">
+      <g id="Grupo_11851" data-name="Grupo 11851">
+        <path id="Subtração_4" data-name="Subtração 4" d="M-1481.5,3.949a.612.612,0,0,1-.428-.172.57.57,0,0,1-.178-.414.571.571,0,0,1,.178-.415l.816-.788c-5.316-.226-8.888-1.628-8.888-3.487,0-1.245,1.463-2.244,4.232-2.888v1.21c-1.805.459-3.018,1.133-3.018,1.678,0,.586,1.135,1.215,3.037,1.682V-1h1.214V.611a26.479,26.479,0,0,0,3.354.371l-.747-.722a.57.57,0,0,1-.178-.414.571.571,0,0,1,.178-.415.613.613,0,0,1,.429-.172.613.613,0,0,1,.429.172l1.822,1.759a.574.574,0,0,1,.177.415.573.573,0,0,1-.177.414l-1.822,1.759A.617.617,0,0,1-1481.5,3.949Zm5.466-1.972a.6.6,0,0,1-.6-.513.571.571,0,0,1,.115-.424.611.611,0,0,1,.41-.231c.434-.053.868-.118,1.291-.194V-1h1.214V.353c1.844-.464,3.037-1.124,3.037-1.68s-1.209-1.219-3.01-1.677v-1.21c2.764.646,4.224,1.645,4.224,2.886,0,.8-.613,1.5-1.823,2.088a15.915,15.915,0,0,1-4.78,1.211A.724.724,0,0,1-1476.034,1.977Z" transform="translate(1956.329 315)" fill="#bcb9b9"/>
+        <g id="Retângulo_5160" data-name="Retângulo 5160" transform="translate(470.363 313.255) rotate(13)" fill="#fff" stroke="#fff" stroke-width="1">
+          <rect width="2" height="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
+        </g>
+      </g>
+      <g id="Retângulo_5161" data-name="Retângulo 5161" transform="matrix(0.978, -0.208, 0.208, 0.978, 480.918, 313.686)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="2" height="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1" height="1" fill="none"/>
+      </g>
+    </g>
+    <g id="credit-card" transform="translate(11.707 3)">
+      <path id="Caminho_3505" data-name="Caminho 3505" d="M10.054,5H1.833A.88.88,0,0,0,1,5.919v6.16A.88.88,0,0,0,1.833,13h8.221a.88.88,0,0,0,.833-.919V5.919A.88.88,0,0,0,10.054,5Zm-8.221.727h8.221a.184.184,0,0,1,.174.192v.9H1.659v-.9A.184.184,0,0,1,1.833,5.727Zm8.221,6.543H1.833a.184.184,0,0,1-.174-.192V7.545h8.569v4.534a.184.184,0,0,1-.174.192Z" transform="translate(0 -0.747)" fill="#bcb9b9"/>
+    </g>
+  </g>
+</svg>

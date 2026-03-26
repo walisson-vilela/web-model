@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78.897" height="100.389" viewBox="0 0 78.897 100.389">
+  <defs>
+    <filter id="Subtraction_3" x="0" y="0" width="78.897" height="100.389" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1695" data-name="Group 1695" transform="translate(-233.707 -334.746)">
+    <g transform="matrix(1, 0, 0, 1, 233.71, 334.75)" filter="url(#Subtraction_3)">
+      <path id="Subtraction_3-2" data-name="Subtraction 3" d="M37.7,91.889h0c-.024-.021-2.419-2.147-5.89-5.539C28.584,83.2,23.718,78.255,18.849,72.6A122.443,122.443,0,0,1,5.89,54.949,53.676,53.676,0,0,1,1.62,46,25.191,25.191,0,0,1,0,37.7,37.709,37.709,0,0,1,72.435,23.025,37.463,37.463,0,0,1,75.4,37.7,25.19,25.19,0,0,1,73.777,46a53.677,53.677,0,0,1-4.271,8.945A122.445,122.445,0,0,1,56.548,72.6c-4.869,5.654-9.734,10.6-12.959,13.748-3.471,3.392-5.866,5.518-5.89,5.539Zm.255-69.983A16.047,16.047,0,1,0,54,37.954,16.066,16.066,0,0,0,37.954,21.906Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-Zoom_maximo">
+      <rect width="28" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="Zoom_maximo" data-name="Zoom maximo" clip-path="url(#clip-Zoom_maximo)">
+    <g id="fullscreen_black_24dp" transform="translate(0 0.6)">
+      <path id="Caminho_4231" data-name="Caminho 4231" d="M0,0H24V24H0Z" fill="none"/>
+    </g>
+    <path id="Caminho_4271" data-name="Caminho 4271" d="M7,14H5v5h5V17H7ZM5,10H7V7h3V5H5Zm12,7H14v2h5V14H17ZM14,5V7h3v3h2V5Z" transform="translate(2 2)" fill="#505d6f"/>
+  </g>
+</svg>

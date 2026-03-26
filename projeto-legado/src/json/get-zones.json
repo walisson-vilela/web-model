@@ -1,0 +1,489 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 4100,
+            "name": "ZONA TRADE MGS 1",
+            "routes": 2,
+            "routes_submitted": 2,
+            "route": {
+                "id": 1609,
+                "zone_id": 4100
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4102,
+            "name": "ZONA TRADE MGS 2",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1425,
+                "zone_id": 4102
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4106,
+            "name": "ZONA TRADE MGS 4",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2701,
+                "zone_id": 4106
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4110,
+            "name": "ZONA TRADE MGS 6",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1925,
+                "zone_id": 4110
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4112,
+            "name": "ZONA TRADE MGS 7",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2579,
+                "zone_id": 4112
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4114,
+            "name": "ZONA TRADE MGS 8",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1547,
+                "zone_id": 4114
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4116,
+            "name": "ZONA TRADE MGS 9",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2189,
+                "zone_id": 4116
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4122,
+            "name": "ZONA TRADE MGS 10",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1995,
+                "zone_id": 4122
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4124,
+            "name": "ZONA TRADE MGS 11",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1477,
+                "zone_id": 4124
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4126,
+            "name": "ZONA TRADE MGS 12",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1445,
+                "zone_id": 4126
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4128,
+            "name": "ZONA TRADE MGS 13",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2737,
+                "zone_id": 4128
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4130,
+            "name": "ZONA TRADE MGS 14",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2457,
+                "zone_id": 4130
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4132,
+            "name": "ZONA TRADE MGS 15",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2025,
+                "zone_id": 4132
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4134,
+            "name": "ZONA TRADE MGS 16",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1433,
+                "zone_id": 4134
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4136,
+            "name": "ZONA TRADE MGS 17",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2005,
+                "zone_id": 4136
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4138,
+            "name": "ZONA TRADE MGS 18",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1835,
+                "zone_id": 4138
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4140,
+            "name": "ZONA TRADE MGS 19",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1761,
+                "zone_id": 4140
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4142,
+            "name": "ZONA TRADE MGS 20",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2345,
+                "zone_id": 4142
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4144,
+            "name": "ZONA TRADE MGS 21",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2651,
+                "zone_id": 4144
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4148,
+            "name": "ZONA TRADE MGS 22",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2599,
+                "zone_id": 4148
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4150,
+            "name": "ZONA TRADE MGS 23",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2521,
+                "zone_id": 4150
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4152,
+            "name": "ZONA TRADE MGS 24",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2361,
+                "zone_id": 4152
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4424,
+            "name": "ZONA TRADE MGS 25",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2337,
+                "zone_id": 4424
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4426,
+            "name": "ZONA TRADE MGS 26",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2569,
+                "zone_id": 4426
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4428,
+            "name": "ZONA TRADE MGS 27",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1669,
+                "zone_id": 4428
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4434,
+            "name": "ZONA TRADE MGS 28",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1463,
+                "zone_id": 4434
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4442,
+            "name": "ZONA TRADE MGS 29",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1913,
+                "zone_id": 4442
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4450,
+            "name": "ZONA TRADE MGS 48",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2777,
+                "zone_id": 4450
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4452,
+            "name": "ZONA TRADE MGS 30",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1401,
+                "zone_id": 4452
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4458,
+            "name": "ZONA TRADE MGS 31",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2051,
+                "zone_id": 4458
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4462,
+            "name": "ZONA TRADE MGS 32",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1749,
+                "zone_id": 4462
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4464,
+            "name": "ZONA TRADE MGS 33",
+            "routes": 3,
+            "routes_submitted": 3,
+            "route": {
+                "id": 1001,
+                "zone_id": 4464
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4478,
+            "name": "ZONA TRADE MGS 34",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1613,
+                "zone_id": 4478
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4622,
+            "name": "ZONA TRADE MGS 35",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1393,
+                "zone_id": 4622
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 4642,
+            "name": "ZONA TRADE MGS 36",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1805,
+                "zone_id": 4642
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 6241,
+            "name": "ZONA TRADE MGS 37",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2185,
+                "zone_id": 6241
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 6242,
+            "name": "ZONA TRADE MGS 38",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1867,
+                "zone_id": 6242
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 6247,
+            "name": "ZONA TRADE MGS 39",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1603,
+                "zone_id": 6247
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 6303,
+            "name": "ZONA TRADE MGS 40",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2867,
+                "zone_id": 6303
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 6311,
+            "name": "ZONA TRADE MGS 41",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 2677,
+                "zone_id": 6311
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 6313,
+            "name": "ZONA TRADE MGS 42",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1563,
+                "zone_id": 6313
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 6315,
+            "name": "ZONA TRADE MGS 43",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1837,
+                "zone_id": 6315
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 6317,
+            "name": "ZONA TRADE MGS 44",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1853,
+                "zone_id": 6317
+            },
+            "routes_color": 1
+        },
+        {
+            "id": 6449,
+            "name": "ZONA TRADE MGS 47",
+            "routes": 1,
+            "routes_submitted": 1,
+            "route": {
+                "id": 1735,
+                "zone_id": 6449
+            },
+            "routes_color": 1
+        }
+    ]
+}

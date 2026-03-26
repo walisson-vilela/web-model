@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="5 7 34 34">
+  <defs>
+    <clipPath id="clip-Icones_Check_sucesso">
+      <rect width="43" height="46"/>
+    </clipPath>
+  </defs>
+  <g id="Icones_Check_sucesso" data-name="Icones Check sucesso" clip-path="url(#clip-Icones_Check_sucesso)">
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(-104)">
+      <g id="block_black_24dp" transform="translate(105 1)">
+        <path id="Caminho_3277" data-name="Caminho 3277" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+    </g>
+    <circle id="Elipse_205" data-name="Elipse 205" cx="15" cy="15" r="15" transform="translate(6.746 8.86)" fill="#fff"/>
+    <g id="Grupo_8778" data-name="Grupo 8778" transform="translate(3.746 5.86)">
+      <g id="how_to_reg-24px" transform="translate(8.944 8.944)">
+        <path id="Caminho_3290" data-name="Caminho 3290" d="M0,0H18.209V18.209H0Z" fill="none"/>
+        <path id="Caminho_3291" data-name="Caminho 3291" d="M9.07,10.07A3.035,3.035,0,1,0,6.035,7.035,3.034,3.034,0,0,0,9.07,10.07Zm0-4.552A1.517,1.517,0,1,1,7.552,7.035,1.522,1.522,0,0,1,9.07,5.517Zm-4.552,9.1c.152-.478,1.95-1.275,3.763-1.472l1.548-1.517a7.087,7.087,0,0,0-.759-.046C7.044,11.587,3,12.6,3,14.622v1.517H9.828L8.311,14.622Zm11.836-4.173-3.892,3.922-1.571-1.578-1.062,1.07,2.633,2.655,4.954-5Z" transform="translate(-0.724 -0.965)" fill="#1b8a20"/>
+      </g>
+      <g id="add_circle_outline-24px" transform="translate(0 0)">
+        <path id="Caminho_3293" data-name="Caminho 3293" d="M0,0H35.991V35.991H0Z" fill="none"/>
+        <path id="Caminho_3294" data-name="Caminho 3294" d="M17,2a15,15,0,1,0,15,15A15,15,0,0,0,17,2Zm0,26.993a12,12,0,1,1,12-12A12.013,12.013,0,0,1,17,28.993Z" transform="translate(0.999 0.999)" fill="#1b8a20"/>
+      </g>
+    </g>
+  </g>
+</svg>

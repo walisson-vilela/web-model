@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="7 4.5 16 16">
+  <defs>
+    <clipPath id="clip-Icones_Check_PC">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Icones_Check_PC" data-name="Icones Check PC" clip-path="url(#clip-Icones_Check_PC)">
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(-104)">
+      <g id="block_black_24dp" transform="translate(105 1)">
+        <path id="Caminho_3277" data-name="Caminho 3277" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+    </g>
+    <path id="Caminho_3285" data-name="Caminho 3285" d="M14.667,12.886V3H1.333v9.886H0V14.2H16V12.886Zm-5.333,0H6.667v-.659H9.333Zm4-1.977H2.667V4.318H13.333Z" transform="translate(7 4.056)" fill="#717171"/>
+  </g>
+</svg>

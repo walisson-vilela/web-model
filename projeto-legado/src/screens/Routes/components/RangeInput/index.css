@@ -1,0 +1,23 @@
+.rangeFilters {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.rangeFilters > .row {
+    margin-bottom: 1rem;
+}
+
+.rangeFilters > .row > .ui.blue.button {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.rangeFilters > .row > .column > .field > label {
+    font-weight: 700;
+    color: var(--black-70);
+}
+
+.rangeFilters > .row > .column > .field > .ui.input {
+    margin-top: .5rem;
+    width: 100%;
+}

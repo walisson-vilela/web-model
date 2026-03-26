@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-Humor_ícone_Amarela">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="Humor_ícone_Amarela" data-name="Humor_ícone Amarela" clip-path="url(#clip-Humor_ícone_Amarela)">
+    <rect id="Retângulo_1" data-name="Retângulo 1" width="36" height="36" fill="none"/>
+    <g id="Grupo_10569" data-name="Grupo 10569" transform="translate(-357 -310.396)">
+      <g id="_003-surprised" data-name="003-surprised" transform="translate(360.932 314.396)">
+        <g id="Grupo_10565" data-name="Grupo 10565" transform="translate(0.068)">
+          <g id="group-9svg" transform="translate(0)">
+            <path id="path-1_49_" d="M159.164,367.465H146.883a.658.658,0,0,1,0-1.316h12.281a.658.658,0,0,1,0,1.316Z" transform="translate(-138.733 -347.802)" fill="#fbcb01"/>
+            <path id="path-2_49_" d="M342.848,175.781a1.573,1.573,0,1,1-1.573-1.573A1.573,1.573,0,0,1,342.848,175.781Z" transform="translate(-322.646 -165.462)" fill="#fbcb01"/>
+            <path id="path-3_49_" d="M157.686,175.781a1.573,1.573,0,1,1-1.573-1.573A1.573,1.573,0,0,1,157.686,175.781Z" transform="translate(-146.783 -165.462)" fill="#fbcb01"/>
+            <path id="path-4_49_" d="M14.068,28a14,14,0,1,1,14-14A14.016,14.016,0,0,1,14.068,28Zm0-26.651A12.652,12.652,0,1,0,26.72,14,12.666,12.666,0,0,0,14.068,1.349Z" transform="translate(-0.068 0)" fill="#fbcb01"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

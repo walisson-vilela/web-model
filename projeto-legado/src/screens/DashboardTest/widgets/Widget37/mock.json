@@ -1,0 +1,59 @@
+{
+    "colors": ["#1E63A3", "#66BB6A"],
+    "credits": false,
+    "chart": {
+        "zoomType": "xy",
+        "height": "230px",
+        "backgroundColor": null
+    },
+    "title": {
+        "text": ""
+    },
+    "subtitle": {
+        "text": ""
+    },
+    "xAxis": [
+        {
+            "categories": [],
+            "crosshair": false
+        }
+    ],
+    "yAxis": [
+        {
+            "labels": {
+                "format": "{value}",
+                "style": {
+                    "color": "#000"
+                }
+            },
+            "title": {
+                "text": "Distância Média",
+                "style": {
+                    "color": "#000",
+                    "fontWeight": "bold"
+                }
+            }
+        },
+        {
+            "title": {
+                "text": "Média Móvel",
+                "style": {
+                    "color": "#000",
+                    "fontWeight": "bold"
+                }
+            },
+            "labels": {
+                "format": "{value}",
+                "style": {
+                    "color": "#1a1a1d"
+                }
+            },
+            "opposite": true
+        }
+    ],
+    "tooltip": {
+        "shared": true
+    },
+    "legend": {},
+    "series": []
+}

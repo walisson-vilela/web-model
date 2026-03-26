@@ -1,0 +1,5 @@
+export { default as ErrorMessage } from './ErrorMessage'
+export { default as Footer } from './Footer'
+export { default as Section } from './Section'
+export { default as Subtitle } from './Subtitle'
+export { default as Title } from './Title'

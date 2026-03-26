@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="32" viewBox="0 0 42 32">
+  <defs>
+    <clipPath id="clip-Code_token">
+      <rect width="42" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="Code_token" data-name="Code token" clip-path="url(#clip-Code_token)">
+    <g id="Grupo_15740" data-name="Grupo 15740" transform="translate(10601 6832)">
+      <g id="Grupo_15739" data-name="Grupo 15739" transform="translate(-10967 -6934.4)">
+        <path id="Caminho_4117" data-name="Caminho 4117" d="M5311.074,4922.01a4.138,4.138,0,0,0-4.077,4.36,4.591,4.591,0,0,0,4.18,4.644h13.907v-6.476l1.316-2.632Z" transform="translate(-4934 -4806.5)" fill="#505d6f"/>
+        <text id="_" data-name="**" transform="translate(376 126.5)" fill="#fafafa" font-size="11" font-family="Lato-Heavy, Lato" font-weight="800" letter-spacing="0.18em"><tspan x="0" y="0">**</tspan></text>
+        <path id="Caminho_4118" data-name="Caminho 4118" d="M5452.957,4913.256l.134,5.87h2.885v-6.675Z" transform="translate(-5055 -4794)" fill="#fff"/>
+        <path id="Subtração_85" data-name="Subtração 85" d="M-4964-4512.5h-6.5a1.508,1.508,0,0,1-1.5-1.5v-8.25a1.508,1.508,0,0,1,1.5-1.5h.75V-4526a4.505,4.505,0,0,1,4.5-4.5,4.488,4.488,0,0,1,1.249.176v1.6a3.228,3.228,0,0,0-1.245-.248,2.913,2.913,0,0,0-3,2.967v2.25h4.25v11.25Zm-1.249-7.725a1.209,1.209,0,0,0-1.143.813,1.209,1.209,0,0,0,.393,1.346v1.291a.751.751,0,0,0,.75.75.751.751,0,0,0,.75-.75v-1.291a1.212,1.212,0,0,0,.393-1.346A1.212,1.212,0,0,0-4965.25-4520.225Z" transform="translate(5365 4640)" fill="#505d6f"/>
+      </g>
+    </g>
+  </g>
+</svg>

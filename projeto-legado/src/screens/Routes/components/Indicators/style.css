@@ -1,0 +1,28 @@
+.popupMW {
+    width: 92vw;
+}
+
+.segmentMW {
+    border-radius: 0 !important;
+    color: #FFF;
+    box-shadow: 5px 5px 10px 0 #999 !important;
+    -webkit-box-shadow: 5px 5px 10px 0 #999 !important;
+    min-height: 160px;
+}
+
+.segmentMW .header {
+    color: #FFF !important;
+}
+
+.segmentMW h2 {
+    margin: 0 !important;
+}
+
+.segmentMW .bar {
+    background-color: rgba(255, 255, 255, .7) !important;
+    border-radius: 0 !important;
+}
+
+.segmentMW .ui.tiny.progress {
+    margin-bottom: 12px;
+}

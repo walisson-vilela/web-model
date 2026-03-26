@@ -1,0 +1,48 @@
+.modalGrid {
+    min-height: 32rem !important;
+}
+
+.ui.grid.modalGrid .ui.header {
+    margin-top: 0;
+}
+
+.ui.grid.modalGrid > .column:nth-child(2) {
+    padding: 24px;
+}
+
+.ui.grid.modalGrid > .column:first-child {
+    display: flex !important;
+    align-items: center;
+    width: 256px !important;
+    background-color: var(--blue);
+    flex-grow: 0;
+    -webkit-box-shadow: 2px 0 8px 0 rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 0 8px 0 rgba(0, 0, 0, .3);
+    box-shadow: 2px 0 8px 0 rgba(0, 0, 0, .3);
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.ui.grid.modalGrid > .column:first-child .circularImage {
+    padding: 6px !important;
+    background-color: #FFF;
+    border: 0 !important;
+
+}
+
+.ui.grid.modalGrid > .column:first-child .description {
+    color: #FFF;
+    font-size: 1.3em;
+    font-weight: normal !important;
+    padding: 0 2.59rem;
+}
+
+.ui.grid.modalGrid h2.ui.header.headerMW .icon-x.link.mw-icon {
+    font-size: .9em;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

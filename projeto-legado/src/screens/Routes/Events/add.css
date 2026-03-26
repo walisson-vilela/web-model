@@ -1,0 +1,110 @@
+.route-events-add {
+    padding: 0 !important;
+}
+
+.route-events-add > .ui.grid > .column {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) {
+    padding: 1rem !important;
+    background: var(--headers-blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .screen-events-filters {
+    margin: 0;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .screen-events-filters > .row {
+    padding-top: 0 !important;
+    padding-bottom: 1rem !important;
+}
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .screen-events-filters > .row > .column:nth-child(1) {
+    padding-left: 0 !important;
+}
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .screen-events-filters > .row > .column:nth-child(2) {
+    padding-right: 0 !important;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .empty-store-elements {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 10rem;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .empty-store-elements > div > h3.header {
+    color: #FFF !important;
+}
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .empty-store-elements > div > h3.header > .sub.header {
+    color: rgba(255, 255, 255, .5);
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment:before {
+    background-color: transparent !important;
+}
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment > .route-found {
+    margin: 0;
+    flex-wrap: wrap;
+}
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment > .route-found > .row {
+    padding-top: 0 !important;
+    padding-bottom: 1rem !important;
+}
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment > .route-found > .row > .column {
+    padding-left: 0 !important;
+    padding-right: 1rem !important;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment > .segment-result {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment > .segment-result > .ui.list {
+    margin: 0 !important;
+    padding: 0 1rem !important;
+    overflow-y: auto;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment > .segment-result > .grid > .row,
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment > .segment-result > .grid > .row > .list-result,
+.route-events-add > .ui.grid > .column > .column:nth-child(1) > .filters > .loader-segment > .segment-result > .grid > .row > .list-result > .segment {
+    padding: 0 !important;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(2) {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(2) > .ui.menu,
+.route-events-add > .ui.grid > .column > .column:nth-child(2) > .ui.menu > .item:before {
+    background-color: transparent;
+}
+
+.route-events-add > .ui.grid > .column > .column:nth-child(2) > .ui.menu > .item > h3.header > .content > .sub.header > .ui.dropdown > i.dropdown.icon {
+    margin-left: .3rem;
+}

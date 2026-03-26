@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.3" height="29.3" viewBox="0 0 29.3 29.3">
+  <defs>
+    <clipPath id="clip-busca_icon">
+      <rect width="29.3" height="29.3"/>
+    </clipPath>
+  </defs>
+  <g id="busca_icon" data-name="busca icon" clip-path="url(#clip-busca_icon)">
+    <g id="Grupo_15642" data-name="Grupo 15642" transform="translate(0 -2)">
+      <g id="check_circle_black_24dp" transform="translate(5 7)">
+        <path id="Caminho_3271" data-name="Caminho 3271" d="M0,0H24V20.767H0Z" fill="none"/>
+      </g>
+    </g>
+    <path id="search" d="M4.56,10.624a.761.761,0,0,1,.076.067.773.773,0,0,1,.067.076,5.306,5.306,0,1,0-.142-.141ZM.224,14.018l2.812-2.811a6.9,6.9,0,1,1,1.082,1.081L1.306,15.1A.765.765,0,1,1,.224,14.018Z" transform="translate(7 22.331) rotate(-90)" fill="#b5babe"/>
+  </g>
+</svg>

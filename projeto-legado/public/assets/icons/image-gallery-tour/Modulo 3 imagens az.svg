@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-Modulo_3_imagens_az">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Modulo_3_imagens_az" data-name="Modulo 3 imagens az" clip-path="url(#clip-Modulo_3_imagens_az)">
+    <g id="check_circle_black_24dp" transform="translate(5 7)">
+      <path id="Caminho_3271" data-name="Caminho 3271" d="M0,0H24V20.767H0Z" fill="none"/>
+    </g>
+    <g id="Grupo_15748" data-name="Grupo 15748" transform="translate(21147.6 6121.5)">
+      <path id="Subtração_86" data-name="Subtração 86" d="M-9727,1241h-32a2,2,0,0,1-2-2v-32a2,2,0,0,1,2-2h32a2,2,0,0,1,2,2v32A2,2,0,0,1-9727,1241Zm-8-12a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2v-6a2,2,0,0,0-2-2Zm-11,0a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2v-6a2,2,0,0,0-2-2Zm-11,0a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2v-6a2,2,0,0,0-2-2Zm22-11a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2v-6a2,2,0,0,0-2-2Zm-11,0a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2v-6a2,2,0,0,0-2-2Zm-11,0a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2v-6a2,2,0,0,0-2-2Zm22-11a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2v-6a2,2,0,0,0-2-2Zm-11,0a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2v-6a2,2,0,0,0-2-2Zm-11,0a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2v-6a2,2,0,0,0-2-2Z" transform="translate(-11380 -7319)" fill="#3455ab"/>
+    </g>
+  </g>
+</svg>

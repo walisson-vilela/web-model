@@ -1,0 +1,25 @@
+.headerModalLink {
+    box-shadow: none !important;
+}
+
+.headerModalLink > .header:before {
+    background: transparent !important;
+}
+
+.itemHeader:before {
+    background: transparent !important;
+}
+
+.h-content {
+    height: 25.5rem !important;
+    overflow-y: scroll;
+}
+
+.segmentBasicList {
+    padding: 0 !important;
+}
+
+.segmentBasicList:before {
+    top: 1px !important;
+    height: calc(100% - 2px) !important;
+}

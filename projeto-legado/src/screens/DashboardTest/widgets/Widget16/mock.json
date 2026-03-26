@@ -1,0 +1,43 @@
+{
+    "chart": {
+        "type": "column",
+        "backgroundColor": null,
+        "height": "250px"
+    },
+    "title": {
+        "text": ""
+    },
+    "loading": true,
+    "yAxis": {
+        "title": {
+            "text": null
+        },
+        "softMax": 100,
+        "max": 100,
+        "endOnTick": false
+    },
+    "xAxis": {
+        "categories": ["S-1", "S0"],
+        "crosshair": true
+    },
+    "plotOptions": {
+        "column": {
+            "stacking": "normal"
+        }
+    },
+    "credits": {
+        "enabled": false
+    },
+    "legend": false,
+    "colors": ["#3CC37B", "#E23851"],
+    "series": [
+        {
+            "name": "Justificados",
+            "data": []
+        },
+        {
+            "name": "Não justificados",
+            "data": []
+        }
+    ]
+}

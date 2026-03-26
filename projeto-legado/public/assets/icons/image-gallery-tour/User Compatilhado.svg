@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.1" height="24.2" viewBox="0 0 30.1 24.2">
+  <defs>
+    <clipPath id="clip-User_Compatilhado">
+      <rect width="30.1" height="24.2"/>
+    </clipPath>
+  </defs>
+  <g id="User_Compatilhado" data-name="User Compatilhado" clip-path="url(#clip-User_Compatilhado)">
+    <path id="Caminho_4114" data-name="Caminho 4114" d="M11.979,9.392a2.2,2.2,0,1,0-2.2-2.2A2.187,2.187,0,0,0,11.979,9.392Zm-5.856,0a2.2,2.2,0,1,0-2.2-2.2A2.187,2.187,0,0,0,6.124,9.392Zm0,1.464C4.418,10.856,1,11.712,1,13.417v1.83H11.247v-1.83C11.247,11.712,7.829,10.856,6.124,10.856Zm5.856,0c-.212,0-.454.015-.71.037a3.089,3.089,0,0,1,1.442,2.525v1.83H17.1v-1.83C17.1,11.712,13.685,10.856,11.979,10.856Z" transform="translate(6 2)" fill="#bdbabf"/>
+  </g>
+</svg>

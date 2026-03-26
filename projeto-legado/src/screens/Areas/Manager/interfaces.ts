@@ -1,0 +1,60 @@
+export interface DataInterface {
+  id?: number | null
+  contractor_id?: number | null
+  country_id?: number | null
+  name?: string | null
+  status?: boolean | null
+  state_count?: number | null
+  city_count?: number | null
+  sublocality_count?: number | null
+  route_count?: number | null
+  store_count?: number | null
+  user_count?: number | null
+  segment_count?: number | null
+  flag_count?: number | null
+  recalculate?: number | null
+  created_by?: number | null
+  created_at?: string | null
+  modified_by?: number | null
+  modified_at?: string | null
+  deleted?: boolean | null
+  deleted_by?: number | null
+  deleted_at?: string | null
+  recovered_by?: number | null
+  recovered_at?: string | null
+  country_name?: string | null
+  hierarchy_id: number | null
+  active_text: string | null
+  system: boolean | null
+  system_text: string | null
+  has_particularities: boolean | null
+  particularities_label: string | null
+}
+
+export interface BodyInterface {
+  id: number | null
+  name: string | null
+  status: JSX.Element | null
+  status_value: boolean | null
+  state_count_value: number | null
+  state_count: JSX.Element | null
+  city_count_value: number | null
+  city_count: JSX.Element | null
+  sublocality_count_value: number | null
+  sublocality_count: JSX.Element | null
+  route_count_value: number | null
+  route_count: JSX.Element | null
+  store_count_value: number | null
+  store_count: JSX.Element | null
+  user_count_value: number | null
+  user_count: JSX.Element | null
+  has_particularities: boolean | null
+  particularities_label: JSX.Element | string | null
+  flag_count_value: number | null
+  segment_count_value: number | null
+  country_id: number | null
+  country_name: string | null
+  system: boolean | null
+  system_text: string | null
+  hierarchy_id: number | null
+}

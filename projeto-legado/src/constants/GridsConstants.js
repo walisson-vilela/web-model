@@ -1,0 +1,4 @@
+export default {
+    GRIDS_CHECK: 'GRIDS_CHECK',
+    GRIDS_REFRESH: 'GRIDS_REFRESH'
+};

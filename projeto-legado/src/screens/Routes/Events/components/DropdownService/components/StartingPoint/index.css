@@ -1,0 +1,30 @@
+.change-starting-point {
+    width: 44rem;
+}
+
+.change-starting-point > div > .ui.secondary.pointing.menu > .active.item {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.change-starting-point > div > .ui.secondary.pointing.menu > .item {
+    color: var(--black-60);
+}
+
+.change-starting-point > div > .ui.segment.tab > .ui.list > .item:not(:last-child) {
+    margin-bottom: 1.2rem;
+}
+
+.change-starting-point > div > .ui.segment.tab > .ui.list > .item > .content > .header {
+    margin-bottom: .5rem;
+}
+
+.change-starting-point > div > .ui.segment.tab > .ui.list > .item > .content > .header,
+.change-starting-point > div > .ui.segment.tab > .ui.list > .item > .content > .description {
+    color: var(--headers-blue) !important;
+    cursor: pointer;
+}
+
+.change-starting-point > div > .ui.segment.tab > .ui.list > .item > .content > .description {
+    font-size: .9em;
+}

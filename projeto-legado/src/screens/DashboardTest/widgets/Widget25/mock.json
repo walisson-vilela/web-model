@@ -1,0 +1,39 @@
+{
+    "color": "#000",
+    "credits": false,
+    "chart": {
+        "height": "250px",
+        "backgroundColor": null
+    },
+    "title": {
+        "text": ""
+    },
+    "series": [
+        {
+            "type": "treemap",
+            "layoutAlgorithm": "squarified",
+            "alternateStartingDirection": true,
+            "levels": [
+                {
+                    "level": 1,
+                    "layoutAlgorithm": "squarified",
+                    "dataLabels": {
+                        "enabled": true,
+                        "align": "left",
+                        "color": "#fff",
+                        "verticalAlign": "top",
+                        "style": {
+                            "fontSize": "15px",
+                            "fontWeight": "normal",
+                            "border": 0
+                        }
+                    }
+                }
+            ],
+            "title": {
+                "text": ""
+            },
+            "data": []
+        }
+    ]
+}

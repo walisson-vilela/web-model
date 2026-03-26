@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.6" height="85" viewBox="0 0 44.6 85">
+  <defs>
+    <clipPath id="clip-Arrow_Esquerda_cinza">
+      <rect width="44.6" height="85"/>
+    </clipPath>
+  </defs>
+  <g id="Arrow_Esquerda_cinza" data-name="Arrow Esquerda cinza" clip-path="url(#clip-Arrow_Esquerda_cinza)">
+    <g id="check_circle_black_24dp" transform="translate(5 7)">
+      <path id="Caminho_3271" data-name="Caminho 3271" d="M0,0H24V20.767H0Z" fill="none"/>
+    </g>
+    <g id="Componente_16_1" data-name="Componente 16 – 1" transform="translate(9.08 6.852)">
+      <path id="Subtração_80" data-name="Subtração 80" d="M18070-11578.245v-71.506a36.32,36.32,0,0,1,11.152,4.8,36.778,36.778,0,0,1,8.871,8.045,36.648,36.648,0,0,1,5.861,10.564A36.77,36.77,0,0,1,18098-11614a36.784,36.784,0,0,1-2.117,12.347,36.627,36.627,0,0,1-5.861,10.565,36.846,36.846,0,0,1-8.871,8.047,36.343,36.343,0,0,1-11.15,4.8Z" transform="translate(-18070 11649.751)" fill="#ededed"/>
+    </g>
+    <path id="Caminho_4107" data-name="Caminho 4107" d="M15.576,3.7,9.272,10l6.3,6.3L13.88,18l-8-8,8-8Z" transform="translate(10.201 32.849)" fill="#adadad"/>
+  </g>
+</svg>

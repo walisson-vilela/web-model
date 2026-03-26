@@ -1,0 +1,182 @@
+[
+  {
+    "id": "empty.title",
+    "defaultMessage": "Nenhum resultado encontrado",
+    "filepath": "src/components/Empty/index.js"
+  },
+  {
+    "id": "empty.description",
+    "defaultMessage": "Altere os parâmetros da sua busca e tente novamente",
+    "filepath": "src/components/Empty/index.js"
+  },
+  {
+    "id": "calendar.list.header",
+    "defaultMessage": "Lista de Eventos",
+    "filepath": "src/screens/Calendars/Events/List.js"
+  },
+  {
+    "id": "calendar.list.subheader",
+    "defaultMessage": "Encontramos {countEvents, number} {countEvents, plural, one {evento} other {eventos}} para o calendário",
+    "filepath": "src/screens/Calendars/Events/List.js"
+  },
+  {
+    "id": "calendar.list.empty",
+    "defaultMessage": "Nenhum evento encontrado",
+    "filepath": "src/screens/Calendars/Events/List.js"
+  },
+  {
+    "id": "calendar.list.empty2",
+    "defaultMessage": "Clique na data desejada e adicione seu primeiro evento",
+    "filepath": "src/screens/Calendars/Events/List.js"
+  },
+  {
+    "id": "calendar.list.search",
+    "defaultMessage": "Buscar",
+    "filepath": "src/screens/Calendars/Events/List.js"
+  },
+  {
+    "id": "calendars.header",
+    "defaultMessage": "Calendários",
+    "filepath": "src/screens/Calendars/index.js"
+  },
+  {
+    "id": "calendars.subheader",
+    "defaultMessage": "Gerencie os calendários da sua empresa",
+    "filepath": "src/screens/Calendars/index.js"
+  },
+  {
+    "id": "calendars.table.status",
+    "defaultMessage": "Situação / ID",
+    "filepath": "src/screens/Calendars/index.js"
+  },
+  {
+    "id": "calendars.table.name",
+    "defaultMessage": "Nome",
+    "filepath": "src/screens/Calendars/index.js"
+  },
+  {
+    "id": "calendars.table.events",
+    "defaultMessage": "Eventos",
+    "filepath": "src/screens/Calendars/index.js"
+  },
+  {
+    "id": "calendars.table.region",
+    "defaultMessage": "Região",
+    "filepath": "src/screens/Calendars/index.js"
+  },
+  {
+    "id": "calendars.table.team",
+    "defaultMessage": "Equipe",
+    "filepath": "src/screens/Calendars/index.js"
+  },
+  {
+    "id": "calendars.table.created",
+    "defaultMessage": "Criado por",
+    "filepath": "src/screens/Calendars/index.js"
+  },
+  {
+    "id": "calendars.table.calendar",
+    "defaultMessage": "Calendário",
+    "filepath": "src/screens/Calendars/index.js"
+  },
+  {
+    "id": "calendars.view.profiles",
+    "defaultMessage": "Perfis",
+    "filepath": "src/screens/Calendars/View.js"
+  },
+  {
+    "id": "calendars.view.hierarchies",
+    "defaultMessage": "Hierarquias",
+    "filepath": "src/screens/Calendars/View.js"
+  },
+  {
+    "id": "calendars.view.regions",
+    "defaultMessage": "Regiões",
+    "filepath": "src/screens/Calendars/View.js"
+  },
+  {
+    "id": "calendars.view.tip",
+    "defaultMessage": "Dica de uso:",
+    "filepath": "src/screens/Calendars/View.js"
+  },
+  {
+    "id": "calendars.view.tip_text",
+    "defaultMessage": "Para adicionar um evento clique sobre a data desejada",
+    "filepath": "src/screens/Calendars/View.js"
+  },
+  {
+    "id": "calendars.view.calendar",
+    "defaultMessage": "Calendário",
+    "filepath": "src/screens/Calendars/View.js"
+  },
+  {
+    "id": "login.form.title",
+    "defaultMessage": "Informe seus dados de acesso",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "login.form.username.label",
+    "defaultMessage": "Usuário",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "login.form.username.placeholder",
+    "defaultMessage": "Informe seu usuário",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "login.form.account.label",
+    "defaultMessage": "Conta",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "login.form.account.placeholder",
+    "defaultMessage": "Informe a conta",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "login.form.password.label",
+    "defaultMessage": "Senha",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "login.form.password.placeholder",
+    "defaultMessage": "Informe sua senha",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "login.form.keep",
+    "defaultMessage": "Lembre-se de mim",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "login.form.submit",
+    "defaultMessage": "Entrar",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "login.form.recover",
+    "defaultMessage": "Não consegue acessar sua conta?",
+    "filepath": "src/screens/Login/LoginForm.js"
+  },
+  {
+    "id": "routes.header",
+    "defaultMessage": "Rotas",
+    "filepath": "src/screens/Routes/index.js"
+  },
+  {
+    "id": "routes.subheader",
+    "defaultMessage": "Gerencie as rotas da sua empresa",
+    "filepath": "src/screens/Routes/index.js"
+  },
+  {
+    "id": "routes.table.status",
+    "defaultMessage": "ID",
+    "filepath": "src/screens/Routes/index.js"
+  },
+  {
+    "id": "routes.table.name",
+    "defaultMessage": "Nome",
+    "filepath": "src/screens/Routes/index.js"
+  }
+]

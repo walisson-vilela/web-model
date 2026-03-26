@@ -1,0 +1,47 @@
+.modal-basic > .segment > .close-modal-basic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .8rem;
+    z-index: 99;
+}
+
+.modal-basic > .segment > .close-modal-basic > .mw-icon {
+    margin: 0 !important;
+    color: var(--headers-blue) !important;
+}
+
+.modal-basic > .segment > .close-modal-basic.mini > .mw-icon {
+    font-size: 1.4285714285714286rem;
+}
+
+.modal-basic > .segment > .close-modal-basic.small > .mw-icon {
+    font-size: 1.7857142857142858rem;
+}
+
+.modal-basic > .segment > .close-modal-basic.large > .mw-icon {
+    font-size: 2rem;
+}
+
+.modal-basic > .segment > .segment > h3.header > .content {
+    color: var(--headers-blue) !important;
+}
+
+.modal-basic > .segment > .segment > .ui.icon.input {
+    float: right;
+    border-bottom: 1px solid var(--black-20);
+}
+
+.modal-basic > .segment > .segment > .ui.basic.segment {
+    overflow-y: auto;
+    clear: both;
+}
+
+.modal-basic > .segment > .segment > .ui.buttons > .ui.button {
+    border-radius: 0;
+}
+
+.modal-basic > .segment > .segment > .ui.buttons > .cancell {
+    background-color: transparent;
+    text-decoration: underline;
+}

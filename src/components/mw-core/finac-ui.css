@@ -1,0 +1,51 @@
+/* teste tela completa */
+#containner {
+    min-width: 100% !important;
+    padding: 20px 0px 35px 0 !important;
+}
+
+#inicioMenu {
+    background-color: #E7F2FA;
+    width: 9.4% !important;
+    height: 23px;
+    padding: 3px;
+    float: left;
+    color: #515455;
+    text-align: left;
+    font-size: 12px;
+    margin: -49px 4px 0 5px;
+}
+
+#menu-cadastro {
+    width: 10% !important;
+    float: left !important;
+    margin-top: 0px;
+}
+
+#conteudo-principal {
+    width: 90% !important;
+    margin-left: 0 !important;
+}
+
+.page-wrapper {
+    padding: 0 10px 0 !important;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #1a2e45;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 100% !important;
+    height: 80% !important;
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    overflow-x: hidden !important;
+}
+/* teste tela completa */
+
+body.gumw-has-overlay {
+    overflow: hidden !important;
+}
