@@ -15,10 +15,10 @@
 
 .panelLogo {
   position: absolute;
-  top: 32px;
+  top: 18px;
   left: 32px;
-  width: clamp(84px, 6.4vw, 144px);
-  height: clamp(84px, 6.4vw, 144px);
+  width: clamp(260px, 16vw, 420px);
+  height: auto;
   object-fit: contain;
   display: block;
   z-index: 2;
@@ -134,10 +134,10 @@
   }
 
   .panelLogo {
-    top: 20px;
+    top: 14px;
     left: 20px;
-    width: clamp(56px, 8vw, 100px);
-    height: clamp(56px, 8vw, 100px);
+    width: clamp(200px, 18vw, 300px);
+    height: auto;
   }
 
   .formPanel {
