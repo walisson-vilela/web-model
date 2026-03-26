@@ -1,6 +1,6 @@
 import styles from '../../styles.module.css'
-import backgroundImage from '../../../../assets/images/backgrounds/Intersecao_1.webp'
-import logoImage from '../../../../assets/images/logos/photo-24px.webp'
+import backgroundImage from '../../../../assets/images/backgrounds/background.png'
+import logoImage from '../../../../assets/images/logos/photo-24px.svg'
 
 const Login = () => {
   return (
@@ -22,7 +22,7 @@ const Login = () => {
       <div className={styles.panelOverlay} />
 
       <p className={styles.panelCaption}>
-        © Copyright 2012-2024 Mundo Wap, todos os direitos reservados.
+        © Copyright 2025-2026 Web Core, todos os direitos reservados.
       </p>
     </section>
   )

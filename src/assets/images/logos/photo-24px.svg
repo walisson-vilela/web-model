@@ -1,0 +1,16 @@
+<svg width="280" height="84" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="logo-cutout" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="60">
+      <rect x="0" y="0" width="200" height="60" fill="white"></rect>
+      <path d="M15 30 L25 20 L35 30 L25 40 Z" fill="black"></path>
+    </mask>
+  </defs>
+
+  <!-- Icon -->
+  <rect x="5" y="10" width="40" height="40" rx="10" fill="#ffffff" mask="url(#logo-cutout)"></rect>
+
+  <!-- Text -->
+  <text x="55" y="38" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">
+    WebCore
+  </text>
+</svg>
