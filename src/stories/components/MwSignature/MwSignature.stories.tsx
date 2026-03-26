@@ -8,8 +8,8 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwSignature',
-  title: 'Components/MwSignature',
+  id: 'Signature',
+  title: 'Components/Signature',
   component: Signature,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
@@ -23,7 +23,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwSignature: Story = {
+export const SignatureStory: Story = {
   args: {},
   render: (args) => {
     const [value, setValue] = useState<string>(

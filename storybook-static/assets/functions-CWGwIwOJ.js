@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-BneVvdWh.js";var t,n,r,i=e((()=>{t=e=>{let t=e.target;for(;t&&!(`ellipsis`in t.dataset);)t=t.parentElement;t&&(t.scrollWidth>t.offsetWidth||t.scrollHeight>t.offsetHeight?t.title=t.innerText:t.removeAttribute(`title`))},n=()=>{},r=e=>{let r=e||n;return{onMouseOver:e=>{r(e),t(e)},"data-ellipsis":``}}}));export{r as n,i as t};

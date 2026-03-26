@@ -15,7 +15,7 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwSelectMultiple',
+  id: 'SelectMultiple',
   title: 'Components/Input/type="select-multiple"',
   component: Select as React.FunctionComponent<MultiSelectProps>,
   parameters: {
@@ -84,7 +84,7 @@ const loader: SelectLoader = async (search, page) => {
   }
 }
 
-export const MwSelectMultiple: Story = {
+export const SelectMultiple: Story = {
   args: {
     label: 'Label',
     name: 'name',

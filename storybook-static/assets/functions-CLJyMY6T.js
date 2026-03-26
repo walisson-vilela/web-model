@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-BneVvdWh.js";var t,n,r,i,a=e((()=>{t=e=>typeof e==`function`,n=e=>Array.isArray(e)&&e[0]instanceof RegExp,r=e=>Array.isArray(e)&&Array.isArray(e[0]),i=e=>{if(t(e))return e;if(n(e)){let[t,n]=e;return e=>e.replace(t,n)}return r(e)?t=>{let n=t;return e.forEach(([e,t])=>{n=n.replace(e,t)}),n}:e=>e}}));export{a as n,i as t};

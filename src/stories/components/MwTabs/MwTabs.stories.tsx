@@ -7,8 +7,8 @@ import type { TabProps } from '../../../components/Tabs/interfaces'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwTabs',
-  title: 'Components/MwTabs',
+  id: 'Tabs',
+  title: 'Components/Tabs',
   component: Tabs,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
@@ -100,7 +100,7 @@ const initial: TabProps<number, keyof typeof components>[] = [
   },
 ]
 
-export const MwTabs: Story = {
+export const TabsStory: Story = {
   args: {},
   render: () => {
     const [active, setActive] = useState(0)

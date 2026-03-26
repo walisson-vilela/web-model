@@ -1,6 +1,0 @@
-export { default as BasicData } from './BasicData'
-export { default as ComplementaryData } from './ComplementaryData'
-export { default as Guidelines } from './Guidelines'
-export { default as Planogram } from './Planogram'
-export { default as Status } from './Status'
-export { default as Submit } from './Submit'

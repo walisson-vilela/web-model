@@ -1,0 +1,9 @@
+import{n as e}from"./chunk-BneVvdWh.js";import{a as t,i as n}from"./iframe-fSyR9o4x.js";import{n as r,t as i}from"./Button-BLRRkxhG.js";var a,o=e((()=>{t(),a={content:{description:`Text inside the button.`},loading:{description:`Define if the button is loading.`,table:{defaultValue:{summary:`false`}}},type:{description:`Specifies if is a clickable, submit or a reset button.`,type:`string`,table:{defaultValue:{summary:`"button"`}},control:`select`},size:{description:`Specifies the button size.`,type:{name:`enum`,value:[`tiny`,`mini`,`small`,`large`,`big`]},table:{defaultValue:{summary:`"small"`}},control:`select`},color:{description:`Define the color of button.`,type:{name:`enum`,value:Object.keys(n)},table:{defaultValue:{summary:`"blue"`}},control:{type:`select`,disable:!0}},disabled:{description:`Define if the button is disabled.`,type:`boolean`,control:`boolean`},appearance:{description:`Specifies if the button style is solid, bordered or text only.`,table:{defaultValue:{summary:`"solid"`}},control:`select`,options:[`solid`,`bordered`,`link`,`borderless`]},children:{control:!1}}})),s,c,l;e((()=>{r(),o(),s={title:`Components/Button`,component:i,parameters:{layout:`centered`},tags:[`autodocs`],argTypes:a},c={args:{type:`button`,content:`Button`,color:`blue`,size:`small`,appearance:`solid`}},c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+  args: {
+    type: 'button',
+    content: 'Button',
+    color: 'blue',
+    size: 'small',
+    appearance: 'solid'
+  }
+}`,...c.parameters?.docs?.source}}},l=[`ButtonStory`]}))();export{c as ButtonStory,l as __namedExportsOrder,s as default};

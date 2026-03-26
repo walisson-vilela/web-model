@@ -6,8 +6,8 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwProgressBar',
-  title: 'Components/MwProgressBar',
+  id: 'ProgressBar',
+  title: 'Components/ProgressBar',
   component: ProgressBar,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
@@ -21,7 +21,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwProgressBar: Story = {
+export const ProgressBarStory: Story = {
   args: {
     type: 'default',
     value: null,

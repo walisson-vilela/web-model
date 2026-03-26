@@ -1,7 +1,0 @@
-.checkSendMessage > input:checked ~ .box:after,
-.checkSendMessage > input:checked ~ label:after {
-  opacity: 1;
-  color: #3455ab !important;
-  border: 1px solid #3455ab !important;
-  border-radius: 4px !important;
-}

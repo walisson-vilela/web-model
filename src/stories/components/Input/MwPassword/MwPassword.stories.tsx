@@ -6,7 +6,7 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwPassword',
+  id: 'Password',
   title: 'Components/Input/type="password"',
   component: Password,
   parameters: {
@@ -21,7 +21,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwPassword: Story = {
+export const PasswordStory: Story = {
   args: {
     label: 'Label',
     required: false,

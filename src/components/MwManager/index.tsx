@@ -3,7 +3,7 @@ import Dropdown from './components/Dropdown'
 import * as DropdownInterfaces from './components/Dropdown/interfaces'
 import EllipsisContainer from './components/EllipsisContainer'
 import Frame from './components/Frame'
-import MwManager from './components/Manager'
+import Manager from './components/Manager'
 import type { SortState } from './components/Manager/Sort/interfaces'
 import type { ColumnInterface } from './components/Manager/interfaces'
 import Toolbar from './components/Toolbar'
@@ -16,7 +16,7 @@ import * as FiltersInterfaces from './components/Toolbar/interfaces'
 import type { Row } from './components/Manager/interfaces'
 
 export {
-  MwManager,
+  Manager,
   Applied as AppliedFilters,
   Menu as MenuFilters,
   Search as SearchFilter,
@@ -33,4 +33,4 @@ export {
 
 export type { SortState, ColumnInterface, Row }
 
-export default MwManager
+export default Manager

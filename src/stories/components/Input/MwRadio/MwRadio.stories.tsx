@@ -8,7 +8,7 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwRadio',
+  id: 'Radio',
   title: 'Components/Input/type="radio"',
   component: Radio,
   parameters: {
@@ -23,7 +23,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwRadio: Story = {
+export const RadioStory: Story = {
   args: {
     name: '',
     label: 'Input label',

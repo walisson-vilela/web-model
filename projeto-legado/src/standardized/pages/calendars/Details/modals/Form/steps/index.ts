@@ -1,5 +1,0 @@
-export { default as AddressStep } from './AddressStep'
-export { default as EventsStep } from './EventsStep'
-export { default as NameStep } from './NameStep'
-export { default as RegionsStep } from './RegionsStep'
-export { default as UsersStep } from './UsersStep'

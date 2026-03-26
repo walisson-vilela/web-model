@@ -1,3 +1,0 @@
-export const CROP_ACTIVE = 'CROP_ACTIVE';
-export const CROP_DISACTIVE = 'CROP_DISACTIVE';
-export const CROP_SAVE_IMAGE = 'CROP_SAVE_IMAGE'

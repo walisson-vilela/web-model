@@ -11,7 +11,7 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwDateIntervalPicker',
+  id: 'DateIntervalPicker',
   title: 'Components/Input/type="date-interval-picker"',
   component: DateIntervalPicker,
   parameters: {
@@ -26,7 +26,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwDateIntervalPicker: Story = {
+export const DateIntervalPickerStory: Story = {
   args: {
     borderless: false,
     paddingless: false,

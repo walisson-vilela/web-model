@@ -1,6 +1,0 @@
-export { default as ManageMenus } from '../../../../components/modals/ManageMenus'
-export { default as ActivateModal } from './Activate'
-export { default as CreateUserFunctionModal } from './Create'
-export { default as DeleteModal } from './Delete'
-export { default as InatctiveModal } from './Inactivate'
-export { default as UserTransfer } from './UserTransfer'

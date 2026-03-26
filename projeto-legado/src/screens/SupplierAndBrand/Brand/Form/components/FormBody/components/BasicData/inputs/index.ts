@@ -1,6 +1,0 @@
-export { default as Classification } from './Classification'
-export { default as Code } from './Code'
-export { default as CountryOperation } from './CountryOperation'
-export { default as Name } from './Name'
-export { default as SupplierSelect } from './SupplierSelect'
-export { default as Type } from './Type'

@@ -10,7 +10,7 @@ import argTypes from './argTypes'
 
 type IntervalCalendarProps = AbsoluteIntervalCalendarProps & { absolute: true }
 
-function IntervalCalendarStory(args: IntervalCalendarProps) {
+function IntervalCalendarExample(args: IntervalCalendarProps) {
   const [open, setOpen] = useState(true)
 
   const max = new Date()
@@ -60,7 +60,7 @@ function IntervalCalendarStory(args: IntervalCalendarProps) {
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwIntervalCalendar',
+  id: 'IntervalCalendar',
   title: 'Components/Calendar/type="interval"',
   component: IntervalCalendar as React.FunctionComponent<IntervalCalendarProps>,
   parameters: {
@@ -75,8 +75,8 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwIntervalCalendar: Story = {
-  render: (args) => <IntervalCalendarStory {...args} />,
+export const IntervalCalendarStory: Story = {
+  render: (args) => <IntervalCalendarExample {...args} />,
 }
 
 export default meta

@@ -6,7 +6,7 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwTemplate1',
+  id: 'Template1',
   title: 'Components/Placeholder/type="template1"',
   component: Placeholder,
   parameters: {
@@ -21,7 +21,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwTemplate1: Story = {
+export const Template1: Story = {
   args: {
     type: 'template1',
     loading: true,

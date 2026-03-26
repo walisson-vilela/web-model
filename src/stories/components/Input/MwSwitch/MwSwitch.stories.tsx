@@ -9,7 +9,7 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwSwitch',
+  id: 'Switch',
   title: 'Components/Input/type="switch"',
   component: Switch,
   parameters: {
@@ -24,7 +24,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwSwitch: Story = {
+export const SwitchStory: Story = {
   args: {
     name: 'status',
     label: {

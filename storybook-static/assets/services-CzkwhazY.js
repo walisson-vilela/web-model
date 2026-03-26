@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-BneVvdWh.js";var t,n=e((()=>{t=async(e,t)=>{let n={...t===void 0?{}:{page:t},...e.length>0?{search:e}:{}},r=Object.keys(n).map(e=>`${e}=${n[e]}`).join(`&`);try{let e=await fetch([`https://swapi.py4e.com/api/people/`,r].join(`?`));return JSON.parse(await e.text())}catch(e){console.error(e)}return{}}}));export{n,t};

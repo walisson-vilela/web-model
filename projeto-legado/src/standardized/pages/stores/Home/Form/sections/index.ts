@@ -1,6 +1,0 @@
-export { default as Address } from './Address'
-export { default as Contacts } from './Contacts'
-export { default as DocumentData } from './DocumentData'
-export { default as Footer } from './Footer'
-export { default as Status } from './Status'
-export { default as StoreData } from './StoreData'

@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import MwAbsoluteContainer from '../../../AbsoluteContainer'
+import BaseAbsoluteContainer from '../../../AbsoluteContainer'
 
 export const Container = styled.div<{ $paddingless?: true }>`
   display: flex;
@@ -36,7 +36,7 @@ export const CalendarContainer = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.lightestGrey};
 `
 
-export const AbsoluteContainer = styled(MwAbsoluteContainer)`
+export const AbsoluteContainer = styled(BaseAbsoluteContainer)`
   > ${Container} {
     padding: ${({ theme }) =>
       `${theme.spacings.s3} ${theme.spacings.s3} ${theme.spacings.s1} ${theme.spacings.s3}`};

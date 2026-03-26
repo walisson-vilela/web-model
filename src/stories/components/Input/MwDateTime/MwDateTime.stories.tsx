@@ -10,7 +10,7 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwDateTime',
+  id: 'DateTime',
   title: 'Components/Input/type="datetime"',
   component: DateTime,
   parameters: {
@@ -25,7 +25,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwDateTime: Story = {
+export const DateTimeStory: Story = {
   args: {
     label: 'Label',
     required: false,

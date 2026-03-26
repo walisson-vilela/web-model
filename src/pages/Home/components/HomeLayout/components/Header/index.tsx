@@ -1,5 +1,5 @@
 import featherIcons from '../../../../../../assets/icons/feather'
-import { MwIcon } from '../../../../../../components'
+import { Icon } from '../../../../../../components'
 
 import styles from '../../styles.module.css'
 
@@ -24,7 +24,7 @@ const Header = ({ onToggleSidebar }: HeaderProps) => {
           onClick={onToggleSidebar}
           aria-label='Alternar menu lateral'
         >
-          <MwIcon type='svg' icon={Menu} width='24px' height='24px' />
+          <Icon type='svg' icon={Menu} width='24px' height='24px' />
         </button>
       </div>
 
@@ -32,14 +32,14 @@ const Header = ({ onToggleSidebar }: HeaderProps) => {
 
       <div className={styles.topbarUser}>
         <button className={styles.notificationButton} type='button'>
-          <MwIcon type='svg' icon={Bell} width='18px' height='18px' />
+          <Icon type='svg' icon={Bell} width='18px' height='18px' />
           <span className={styles.notificationBadge}>3</span>
         </button>
 
         <div className={styles.userBlock}>
           <div className={styles.avatar}>CS</div>
           <span>Carlos Soares</span>
-          <MwIcon type='svg' icon={ChevronDown} width='16px' height='16px' />
+          <Icon type='svg' icon={ChevronDown} width='16px' height='16px' />
         </div>
       </div>
     </header>

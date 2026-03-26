@@ -1,7 +1,0 @@
-export { default as Birthdays } from './Birthdays'
-export { default as Chat } from './Chat'
-export { default as Help } from './Help'
-export { default as Inbox } from './Inbox'
-export { default as Language } from './Language'
-export { default as Notifications } from './Notifications'
-export { default as User } from './User'

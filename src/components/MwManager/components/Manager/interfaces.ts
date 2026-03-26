@@ -141,7 +141,7 @@ export interface ContextInterface extends Common {
   getRowDisabled: (row: Row) => boolean
 }
 
-export interface MwManagerProps extends Common {
+export interface ManagerProps extends Common {
   /** lista de mensagens, caso nao queira usar as mensagens padrao */
   messages?: {
     /** mensagem exibida quando nao encontra nenhum resultado */

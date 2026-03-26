@@ -1,6 +1,0 @@
-export { default as RowAdress } from './RowAdress'
-export { default as RowContact } from './RowContact'
-export { default as RowHistory } from './RowHistory'
-export { default as RowId } from './RowId'
-export { default as RowOtherInfo } from './RowOtherInfo'
-export { default as RowPhone } from './RowPhone'

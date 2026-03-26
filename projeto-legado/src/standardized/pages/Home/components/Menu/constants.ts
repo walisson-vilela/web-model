@@ -1,3 +1,0 @@
-export const CONTAINER_WIDTH = 56
-
-export const CONTAINER_EXPANDED_WIDTH = 254

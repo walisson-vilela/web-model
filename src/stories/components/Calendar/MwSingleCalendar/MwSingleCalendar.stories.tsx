@@ -10,7 +10,7 @@ import argTypes from './argTypes'
 
 type IntervalCalendarProps = AbsoluteSingleCalendarProps & { absolute: true }
 
-function SingleCalendarStory(args: IntervalCalendarProps) {
+function SingleCalendarExample(args: IntervalCalendarProps) {
   const [open, setOpen] = useState(true)
 
   const max = new Date()
@@ -67,7 +67,7 @@ function SingleCalendarStory(args: IntervalCalendarProps) {
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwSingleCalendar',
+  id: 'SingleCalendar',
   title: 'Components/Calendar/type="single"',
   component: SingleCalendar as React.FunctionComponent<IntervalCalendarProps>,
   parameters: {
@@ -82,8 +82,8 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwSingleCalendar: Story = {
-  render: (args) => <SingleCalendarStory {...args} />,
+export const SingleCalendarStory: Story = {
+  render: (args) => <SingleCalendarExample {...args} />,
 }
 
 export default meta

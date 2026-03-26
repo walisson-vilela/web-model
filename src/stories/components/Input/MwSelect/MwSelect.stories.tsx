@@ -17,7 +17,7 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwSelect',
+  id: 'Select',
   title: 'Components/Input/type="select"',
   component: Select as React.FunctionComponent<SingleSelectProps>,
   parameters: {
@@ -54,7 +54,7 @@ const initial = {
   url: 'https://swapi.py4e.com/api/people/12/',
 }
 
-export const MwSelect: Story = {
+export const SelectStory: Story = {
   args: {
     label: 'Label',
     name: 'name',

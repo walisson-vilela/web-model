@@ -4,7 +4,7 @@ import type { SortState } from './Sort/interfaces'
 import { TableBody } from './TableBody'
 import { TableHeader } from './TableHeader/'
 import ManagerContext from './context'
-import type { MwManagerProps } from './interfaces'
+import type { ManagerProps } from './interfaces'
 import * as S from './styled'
 
 const defaultMessages = {
@@ -12,7 +12,7 @@ const defaultMessages = {
   emptyWithFilters: 'Nenhum resultado encontrado para a busca realizada',
 }
 
-const MwManager = (props: MwManagerProps) => {
+const Manager = (props: ManagerProps) => {
   const {
     columns,
     rows,
@@ -137,4 +137,4 @@ const MwManager = (props: MwManagerProps) => {
   )
 }
 
-export default MwManager
+export default Manager

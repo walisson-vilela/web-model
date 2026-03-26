@@ -6,8 +6,8 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwZoom',
-  title: 'Components/MwZoom',
+  id: 'Zoom',
+  title: 'Components/Zoom',
   component: Zoom,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
@@ -21,7 +21,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwZoom: Story = {
+export const ZoomStory: Story = {
   args: {
     src: 'https://images.squarespace-cdn.com/content/v1/556c9bf4e4b0de57cb590a0f/1558528954519-GMGYNRRVVRPUT77M2TC9/marvin-meyer-571072-unsplash.jpg',
     width: 120,

@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 
 import { isObject } from '../../../functions/common'
-import { MwEllipsisContainer, MwSelect } from '../../../index'
+import { EllipsisContainer, Select } from '../../../index'
 import type {
   SelectKeyBuilder,
   SelectOptionComponent,
@@ -94,42 +94,42 @@ export const getKey: SelectKeyBuilder<Option> = (option) => option.id.toString()
 
 export const OptionComponent: SelectOptionComponent<Option> = ({ option }) => {
   return (
-    <MwSelect.OptionContainer>
+    <Select.OptionContainer>
       <div>
         <span>ID:</span>
-        <MwEllipsisContainer>
+        <EllipsisContainer>
           <span>{option.id}</span>
-        </MwEllipsisContainer>
+        </EllipsisContainer>
 
         <span children='|' />
 
         <span>Nome:</span>
-        <MwEllipsisContainer>
+        <EllipsisContainer>
           <span>{option.name}</span>
-        </MwEllipsisContainer>
+        </EllipsisContainer>
       </div>
 
       <div>
         <span>Born in:</span>
-        <MwEllipsisContainer>
+        <EllipsisContainer>
           <span>{option.birth_year}</span>
-        </MwEllipsisContainer>
+        </EllipsisContainer>
 
         <span children='|' />
 
         <span>Height:</span>
-        <MwEllipsisContainer>
+        <EllipsisContainer>
           <span>{option.height}</span>
-        </MwEllipsisContainer>
+        </EllipsisContainer>
 
         <span children='|' />
 
         <span>Hair:</span>
-        <MwEllipsisContainer>
+        <EllipsisContainer>
           <span>{option.hair_color}</span>
-        </MwEllipsisContainer>
+        </EllipsisContainer>
       </div>
-    </MwSelect.OptionContainer>
+    </Select.OptionContainer>
   )
 }
 

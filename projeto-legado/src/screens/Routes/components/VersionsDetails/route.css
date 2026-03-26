@@ -1,9 +1,0 @@
-.routeHeader  {
-    color: var(--black-70) !important;
-}
-
-.routeHeader > div {
-    font-size: .7em !important;
-    font-weight: 700 !important;
-    color: var(--black-50) !important;
-}

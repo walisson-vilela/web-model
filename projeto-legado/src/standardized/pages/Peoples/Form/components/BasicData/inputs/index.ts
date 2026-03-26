@@ -1,7 +1,0 @@
-export { default as Admission } from './Admission'
-export { default as Birthdate } from './Birthdate'
-export { default as Document } from './Document'
-export { default as Name } from './Name'
-export { default as Pis } from './Pis'
-export { default as Registration } from './Registration'
-export { default as Sector } from './Sector'

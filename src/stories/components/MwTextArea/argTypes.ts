@@ -1,8 +1,8 @@
 import type { ArgTypes } from '@storybook/react-webpack5'
 
-import type { MwTextAreaProps } from '../../../components/TextArea/interfaces'
+import type { TextAreaProps } from '../../../components/TextArea/interfaces'
 
-const argTypes: Partial<ArgTypes<MwTextAreaProps>> = {
+const argTypes: Partial<ArgTypes<TextAreaProps>> = {
   name: {
     description: 'required field to register the textarea',
     table: {

@@ -6,8 +6,8 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwIndicator',
-  title: 'Components/MwIndicator',
+  id: 'Indicator',
+  title: 'Components/Indicator',
   component: Indicator,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
@@ -21,7 +21,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwIndicator: Story = {
+export const IndicatorStory: Story = {
   args: {
     size: 'small',
     type: 'default',

@@ -100,7 +100,7 @@ src/pages/Home/
 
 - `HomePage` é a porta de entrada da área autenticada.
 - `HomeLayout` monta o shell visual da aplicação.
-- `MwTabs` renderiza as screens abertas e recebe um `header` separado para título, subtítulo e ações da screen ativa.
+- `Tabs` renderiza as screens abertas e recebe um `header` separado para título, subtítulo e ações da screen ativa.
 - `screens/index.tsx` concentra o catálogo de telas internas, seus paths, labels, descrições e hierarquia.
 - O menu lateral e o router consomem o mesmo catálogo, evitando duplicar rotas e labels.
 - A screen `home` aparece como `Painel de Controle` no tab.

@@ -1,4 +1,0 @@
-{
-  "extends": "@mw-kit/eslint-config/tsconfig",
-  "include": ["../**/*"]
-}

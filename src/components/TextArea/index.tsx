@@ -1,13 +1,13 @@
 import React from 'react'
 
-import type { MwTextAreaProps } from './interfaces'
+import type { TextAreaProps } from './interfaces'
 import * as S from './styles'
 
 const TextArea = ({
   width,
   height,
   ...props
-}: MwTextAreaProps): JSX.Element => {
+}: TextAreaProps): JSX.Element => {
   return <S.Container {...props} $width={width} $height={height} />
 }
 

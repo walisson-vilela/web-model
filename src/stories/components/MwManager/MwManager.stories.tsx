@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react'
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
 import Button from '../../../components/Button'
-import MwManager, {
+import Manager, {
   type ColumnInterface,
   Frame,
   type Row,
@@ -119,7 +119,7 @@ const menuItems = (row: PersonRow) => {
   ]
 }
 
-const MwManagerExample = () => {
+const ManagerExample = () => {
   const [page, setPage] = useState(1)
   const [sort, setSort] = useState<SortState | null>(null)
   const [checkeds, setCheckeds] = useState<Row[]>([])
@@ -179,7 +179,7 @@ const MwManagerExample = () => {
         ]}
         after={[<React.Fragment key='after-1'>Elemento 4</React.Fragment>]}
       />
-      <MwManager
+      <Manager
         columns={columns}
         rows={rows}
         hasFilters={false}
@@ -198,19 +198,19 @@ const MwManagerExample = () => {
 }
 
 const meta = {
-  id: 'MwManager',
-  title: 'Components/MwManager',
-  component: MwManager,
+  id: 'Manager',
+  title: 'Components/Manager',
+  component: Manager,
   parameters: {
     layout: 'fullscreen',
   },
   tags: ['autodocs'],
-} as Meta<typeof MwManager>
+} as Meta<typeof Manager>
 
 type Story = StoryObj<typeof meta>
 
 export const Example: Story = {
-  render: () => <MwManagerExample />,
+  render: () => <ManagerExample />,
 }
 
 export default meta

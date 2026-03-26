@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 
-import { MwTabs } from '../../../../components'
+import { Tabs } from '../../../../components'
 import type { TabProps, TabShellProps } from '../../../../components/Tabs/interfaces'
 import { PATHS } from '../../../../routes/paths'
 import {
@@ -30,11 +30,11 @@ const homeScreenHeader = ({ data }: TabShellProps<HomeTabData>) => {
   )
 }
 
-const homeScreenTab = MwTabs.buildComponent(() => {
+const homeScreenTab = Tabs.buildComponent(() => {
   return <div className={styles.screenBody} />
 })
 
-const homeTabComponents = MwTabs.mapComponents<HomeTabComponentKey, HomeTabData>({
+const homeTabComponents = Tabs.mapComponents<HomeTabComponentKey, HomeTabData>({
   HomeScreenTab: homeScreenTab,
 })
 
@@ -133,7 +133,7 @@ const MainLayout = () => {
 
         <main className={styles.content}>
           <section className={styles.workspace}>
-            <MwTabs
+            <Tabs
               active={[activeIndex, handleSetActive]}
               options={[tabs, setTabs]}
               components={homeTabComponents}

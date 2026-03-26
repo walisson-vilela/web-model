@@ -7,7 +7,7 @@ import type {
 } from 'react'
 
 import featherIcons from '../../../../../../assets/icons/feather'
-import { MwIcon } from '../../../../../../components'
+import { Icon } from '../../../../../../components'
 import { PATHS } from '../../../../../../routes/paths'
 import { HOME_SCREEN_NODES } from '../../../../screens'
 
@@ -192,7 +192,7 @@ const Menu = forwardRef<HTMLDivElement, MenuProps>(
                     onClick={() => handleItemClick(index, item)}
                   >
                     <span className={styles.sidebarIconSlot} aria-hidden='true'>
-                      <MwIcon
+                <Icon
                         type='svg'
                         icon={item.icon}
                         color='inherit'
@@ -205,7 +205,7 @@ const Menu = forwardRef<HTMLDivElement, MenuProps>(
 
                     {sidebarOpen && hasChildren ? (
                       <span className={styles.sidebarChevron} aria-hidden='true'>
-                        <MwIcon
+                        <Icon
                           type='svg'
                           icon={ChevronDown}
                           color='inherit'

@@ -1,6 +1,0 @@
-export { default as Classification } from './Classification'
-export { default as EAN13 } from './EAN13'
-export { default as Meansurement } from './Meansurement'
-export { default as MeansurementUnit } from './MeansurementUnit'
-export { default as NotifyPrice } from './NotifyPrice'
-export { default as Price } from './Price'

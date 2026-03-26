@@ -1,4 +1,4 @@
-import { MwButton, MwInput } from '../../../../components'
+import { Button, Input } from '../../../../components'
 
 import styles from '../../styles.module.css'
 import type { LoginFormProps } from '../../interfaces'
@@ -19,7 +19,7 @@ const LoginForm = (props: LoginFormProps) => {
       <h2 className={styles.formTitle}>Dados de Acesso</h2>
 
       <div className={styles.fields}>
-        {/* <MwInput
+        {/* <Input
           label='ID da Conta'
           type='number'
           placeholder='000000'
@@ -28,7 +28,7 @@ const LoginForm = (props: LoginFormProps) => {
           inputMode='numeric'
         /> */}
 
-        <MwInput
+        <Input
           label='Usuário'
           type='email'
           placeholder='Digite seu usuário'
@@ -37,7 +37,7 @@ const LoginForm = (props: LoginFormProps) => {
           autoComplete='username'
         />
 
-        <MwInput
+        <Input
           label='Senha'
           type='password'
           placeholder='Senha'
@@ -48,7 +48,7 @@ const LoginForm = (props: LoginFormProps) => {
       </div>
 
       <div className={styles.metaRow}>
-        <MwInput
+        <Input
           type='checkbox'
           label='Manter-me conectado'
           checked={values.rememberMe}
@@ -61,7 +61,7 @@ const LoginForm = (props: LoginFormProps) => {
         </a>
       </div>
 
-      <MwButton
+      <Button
         type='submit'
         content='Entrar'
         appearance='solid'

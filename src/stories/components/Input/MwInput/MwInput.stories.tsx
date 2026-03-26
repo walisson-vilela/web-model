@@ -9,7 +9,7 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwInput',
+  id: 'Input',
   title:
     'Components/Input/type="text" or "number" or "search" or "email" or "url"',
   component: Input,
@@ -31,7 +31,7 @@ const cpf = (value: string) => {
   return s.filter((e) => e !== '').join('.')
 }
 
-export const MwInput: Story = {
+export const InputStory: Story = {
   args: {
     label: 'Label',
     name: 'name',

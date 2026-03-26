@@ -1,5 +1,0 @@
-export default {
-    LIST: "LIST_MENUS",
-    LIST_SUCCESS: "LIST_MENUS_SUCCESS",
-    LIST_FAILURE: "LIST_MENUS_FAILURE",
-};

@@ -6,8 +6,8 @@ import argTypes from './argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwToast',
-  title: 'Components/MwToast',
+  id: 'Toast',
+  title: 'Components/Toast',
   component: Toast,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
@@ -21,7 +21,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwToast: Story = {
+export const ToastStory: Story = {
   args: {
     color: 'success',
     size: 'normal',

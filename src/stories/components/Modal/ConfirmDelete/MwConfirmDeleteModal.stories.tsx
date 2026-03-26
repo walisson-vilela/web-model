@@ -8,8 +8,8 @@ import argTypes, { defaultArgs } from '../argTypes'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  id: 'MwConfirmDeleteModal',
-  title: 'Components/Modal/MwConfirmDeleteModal',
+  id: 'ConfirmDeleteModal',
+  title: 'Components/Modal/ConfirmDeleteModal',
   component: Modal.Audit,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
@@ -23,7 +23,7 @@ const meta = {
 
 type Story = StoryObj<typeof meta>
 
-export const MwConfirmDeleteModal: Story = {
+export const ConfirmDeleteModal: Story = {
   args: {
     ...defaultArgs,
   },

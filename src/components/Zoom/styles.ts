@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import MwButton from '../Button'
+import BaseButton from '../Button'
 
 import type { StyledZoomProps } from './interfaces'
 
@@ -58,7 +58,7 @@ export const Dimmer = styled.div`
   }
 `
 
-export const Button = styled(MwButton)`
+export const Button = styled(BaseButton)`
   background-color: ${({ theme }) => theme.getColor('white', 50)};
 `
 

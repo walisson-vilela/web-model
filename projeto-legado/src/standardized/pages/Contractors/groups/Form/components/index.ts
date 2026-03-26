@@ -1,6 +1,0 @@
-export * from '../../../components'
-export { default as Avatar } from './Avatar'
-export { default as BasicData } from './BasicData'
-export { default as Footer } from './Footer'
-export { default as GroupAssociated } from './GroupAssociated'
-export { default as Status } from './Status'

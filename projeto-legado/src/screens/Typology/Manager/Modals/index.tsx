@@ -1,6 +1,0 @@
-export { default as Activate } from './Activate'
-export { default as AssociatedPDVModal } from './AssociatedPDV'
-export { default as Delete } from './Delete'
-export { default as FormModal } from './FormModal'
-export { default as Inactivate } from './Inativate'
-export { default as PDVTransferModal } from './PDVTransfer'
